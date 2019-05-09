@@ -32,8 +32,6 @@ TODO: Add long description of the pod here.
 
   s.public_header_files = 'LEGOCoreKit/Classes/LBGOCoreKit.h'
 
-  s.source_files = 'LEGOCoreKit/Classes/**/*'
-
   s.subspec 'LEGOPrefix' do |ss|
     ss.frameworks = 'UIKit', 'Foundation'
     ss.source_files = 'LEGOCoreKit/Classes/LEGOPrefix/**/*'
