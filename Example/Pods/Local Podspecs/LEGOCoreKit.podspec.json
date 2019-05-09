@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of LEGOCoreKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/564008993@qq.com/LEGOCoreKit",
+  "homepage": "https://github.com/legokit/LEGOCoreKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -19,7 +19,7 @@
     "ios": "8.0"
   },
   "public_header_files": "LEGOCoreKit/Classes/LBGOCoreKit.h",
-  "source_files": "LEGOCoreKit/Classes/**/*",
+  "source_files": "LEGOCoreKit/Classes/LBGOCoreKit.h",
   "subspecs": [
     {
       "name": "LEGOPrefix",

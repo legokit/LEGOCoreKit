@@ -9,5 +9,7 @@
 #ifndef LBGOCoreKit_h
 #define LBGOCoreKit_h
 
+#import "LEGOPrefix.h"
+
 
 #endif /* LBGOCoreKit_h */

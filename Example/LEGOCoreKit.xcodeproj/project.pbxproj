@@ -42,7 +42,7 @@
 		21D8AAA74998017167C9F61A /* Pods_LEGOCoreKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEGOCoreKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E200D5C31677D51ACCF9CF1 /* Pods-LEGOCoreKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEGOCoreKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LEGOCoreKit_Example/Pods-LEGOCoreKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		463289E749987A3FF8F27687 /* Pods-LEGOCoreKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEGOCoreKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-LEGOCoreKit_Tests/Pods-LEGOCoreKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		48F61549F9126408C7F093B6 /* LEGOCoreKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LEGOCoreKit.podspec; path = ../LEGOCoreKit.podspec; sourceTree = "<group>"; };
+		48F61549F9126408C7F093B6 /* LEGOCoreKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LEGOCoreKit.podspec; path = ../LEGOCoreKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* LEGOCoreKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEGOCoreKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				7EE7F75D2CF1D063945E95C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -314,28 +313,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7EE7F75D2CF1D063945E95C2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LEGOCoreKit_Example/Pods-LEGOCoreKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LEGOCoreKit/LEGOCoreKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LEGOCoreKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LEGOCoreKit_Example/Pods-LEGOCoreKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C3F1790BD79153C9EB0D011E /* [CP] Check Pods Manifest.lock */ = {
