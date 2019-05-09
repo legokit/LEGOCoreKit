@@ -1,0 +1,18 @@
+PODS:
+  - LEGOCoreKit (0.1.0):
+    - LEGOCoreKit/LEGOPrefix (= 0.1.0)
+  - LEGOCoreKit/LEGOPrefix (0.1.0)
+
+DEPENDENCIES:
+  - LEGOCoreKit (from `../`)
+
+EXTERNAL SOURCES:
+  LEGOCoreKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LEGOCoreKit: cca423349d49ef7b80bd40038988c0e7a45f39c8
+
+PODFILE CHECKSUM: 83b1643cbb52220337b77bb91d4016d745477dbb
+
+COCOAPODS: 1.6.1
