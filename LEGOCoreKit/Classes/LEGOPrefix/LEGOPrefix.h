@@ -36,7 +36,7 @@ if (@available(iOS 11.0, *)) {\
 isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
 }\
 (isPhoneX);})
-LEGO
+
 // 屏幕的参数
 #define LEGOScreenWidth [[UIScreen mainScreen] bounds].size.width
 #define LEGOScreenHeight [[UIScreen mainScreen] bounds].size.height

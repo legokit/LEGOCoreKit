@@ -7,7 +7,7 @@
 //
 
 #import "LEGOViewController.h"
-#import <LBGOCoreKit.h>
+
 @interface LEGOViewController ()
 
 @end

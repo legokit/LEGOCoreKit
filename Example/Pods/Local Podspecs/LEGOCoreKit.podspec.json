@@ -28,6 +28,18 @@
         "Foundation"
       ],
       "source_files": "LEGOCoreKit/Classes/LEGOPrefix/**/*"
+    },
+    {
+      "name": "LEGOAuthority",
+      "frameworks": [
+        "UIKit",
+        "Foundation",
+        "AVFoundation",
+        "Photos",
+        "UserNotifications",
+        "CoreLocation"
+      ],
+      "source_files": "LEGOCoreKit/Classes/LEGOAuthority/**/*"
     }
   ]
 }

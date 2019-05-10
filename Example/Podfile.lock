@@ -1,6 +1,8 @@
 PODS:
   - LEGOCoreKit (0.1.0):
+    - LEGOCoreKit/LEGOAuthority (= 0.1.0)
     - LEGOCoreKit/LEGOPrefix (= 0.1.0)
+  - LEGOCoreKit/LEGOAuthority (0.1.0)
   - LEGOCoreKit/LEGOPrefix (0.1.0)
 
 DEPENDENCIES:
@@ -11,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LEGOCoreKit: 31db4c34ab8cb65a1957db15f13f785f85e5b2e1
+  LEGOCoreKit: c99182a8e22ea03d39450ab9315e802aefda4b5a
 
 PODFILE CHECKSUM: 83b1643cbb52220337b77bb91d4016d745477dbb
 

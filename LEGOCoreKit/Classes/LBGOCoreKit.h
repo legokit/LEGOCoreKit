@@ -10,6 +10,7 @@
 #define LBGOCoreKit_h
 
 #import "LEGOPrefix.h"
+#import "LEGOAuthorityManager.h"
 
 
 #endif /* LBGOCoreKit_h */

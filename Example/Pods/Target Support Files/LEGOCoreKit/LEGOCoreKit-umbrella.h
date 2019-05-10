@@ -11,6 +11,8 @@
 #endif
 
 #import "LBGOCoreKit.h"
+#import "LEGOAuthorityManager.h"
+#import "LEGOPrefix.h"
 
 FOUNDATION_EXPORT double LEGOCoreKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LEGOCoreKitVersionString[];
