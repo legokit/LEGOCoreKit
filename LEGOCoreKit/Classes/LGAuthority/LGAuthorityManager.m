@@ -6,7 +6,7 @@
 //  Copyright © 2018 The last stand. All rights reserved.
 //
 
-#import "LEGOAuthorityManager.h"
+#import "LGAuthorityManager.h"
 #import <AVFoundation/AVFoundation.h>
 #import <Photos/Photos.h>
 #import <UserNotifications/UserNotifications.h>
@@ -16,7 +16,7 @@
 #include <sys/param.h>
 #include <sys/mount.h>
 
-@implementation LEGOAuthorityManager
+@implementation LGAuthorityManager
 
 // 相机访问权限
 + (BOOL)cameraAuthority {    

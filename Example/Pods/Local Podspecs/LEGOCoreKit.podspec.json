@@ -18,19 +18,23 @@
   "platforms": {
     "ios": "8.0"
   },
-  "public_header_files": "LEGOCoreKit/Classes/LBGOCoreKit.h",
-  "source_files": "LEGOCoreKit/Classes/LBGOCoreKit.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "public_header_files": "LEGOCoreKit/Classes/LGCoreKit.h",
+  "source_files": "LEGOCoreKit/Classes/LGCoreKit.h",
   "subspecs": [
     {
-      "name": "LEGOPrefix",
+      "name": "LGPrefix",
       "frameworks": [
         "UIKit",
         "Foundation"
       ],
-      "source_files": "LEGOCoreKit/Classes/LEGOPrefix/**/*"
+      "source_files": "LEGOCoreKit/Classes/LGPrefix/**/*"
     },
     {
-      "name": "LEGOAuthority",
+      "name": "LGAuthority",
       "frameworks": [
         "UIKit",
         "Foundation",
@@ -39,7 +43,20 @@
         "UserNotifications",
         "CoreLocation"
       ],
-      "source_files": "LEGOCoreKit/Classes/LEGOAuthority/**/*"
+      "source_files": "LEGOCoreKit/Classes/LGAuthority/**/*"
+    },
+    {
+      "name": "LGUtility",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ],
+      "source_files": "LEGOCoreKit/Classes/LGUtility/**/*",
+      "dependencies": {
+        "YYCategories": [
+
+        ]
+      }
     }
   ]
 }

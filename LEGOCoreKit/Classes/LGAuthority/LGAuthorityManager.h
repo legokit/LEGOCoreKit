@@ -12,7 +12,7 @@ typedef void (^CameraAuthorityeBlock)(BOOL isAuthority) ;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LEGOAuthorityManager : NSObject
+@interface LGAuthorityManager : NSObject
 
 // 相机访问权限
 + (BOOL)cameraAuthority;

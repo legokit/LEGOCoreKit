@@ -1,4 +1,5 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/LEGOCoreKit
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/YYCategories"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "CoreLocation" -framework "Foundation" -framework "Photos" -framework "UIKit" -framework "UserNotifications"
 PODS_BUILD_DIR = ${BUILD_DIR}

@@ -1,19 +1,30 @@
 PODS:
   - LEGOCoreKit (0.1.0):
-    - LEGOCoreKit/LEGOAuthority (= 0.1.0)
-    - LEGOCoreKit/LEGOPrefix (= 0.1.0)
-  - LEGOCoreKit/LEGOAuthority (0.1.0)
-  - LEGOCoreKit/LEGOPrefix (0.1.0)
+    - LEGOCoreKit/LGAuthority (= 0.1.0)
+    - LEGOCoreKit/LGPrefix (= 0.1.0)
+    - LEGOCoreKit/LGUtility (= 0.1.0)
+  - LEGOCoreKit/LGAuthority (0.1.0)
+  - LEGOCoreKit/LGPrefix (0.1.0)
+  - LEGOCoreKit/LGUtility (0.1.0):
+    - YYCategories
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - LEGOCoreKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YYCategories
 
 EXTERNAL SOURCES:
   LEGOCoreKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LEGOCoreKit: c99182a8e22ea03d39450ab9315e802aefda4b5a
+  LEGOCoreKit: 57c69480df5d7d959ed43979bb196d8bf759d71b
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
 PODFILE CHECKSUM: 83b1643cbb52220337b77bb91d4016d745477dbb
 

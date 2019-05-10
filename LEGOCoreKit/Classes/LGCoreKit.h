@@ -9,8 +9,8 @@
 #ifndef LBGOCoreKit_h
 #define LBGOCoreKit_h
 
-#import "LEGOPrefix.h"
-#import "LEGOAuthorityManager.h"
+#import "LGPrefix.h"
+#import "LGAuthorityManager.h"
 
 
 #endif /* LBGOCoreKit_h */

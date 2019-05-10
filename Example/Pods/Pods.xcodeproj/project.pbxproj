@@ -7,24 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07FC0C15AFEE096A14AC737A06CC0A74 /* LEGOCoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DD0369907492898106D98DE1512A3E /* LEGOCoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00FE972928F2B66E5E851CB23F947F38 /* UITextField+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 32002D8B457ED5E320E3103A988E224C /* UITextField+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0154C968B94B4005F37B21E5149D06D2 /* NSObject+YYAddForARC.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FEE18A5401ED2E5884739B10625062 /* NSObject+YYAddForARC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0198E740CE05346FCFAAF95FC6B98049 /* UIScreen+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 509364BF534189F07F26FF568DCF9971 /* UIScreen+YYAdd.m */; };
+		04435A8B6281E2E361D67EF04A9C3B63 /* NSObject+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE01FDE5292789AC08BC7C8A729A93E /* NSObject+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F0FE8A29A940DD70D96C7B54FEFA3D /* NSObject+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2ECDECD235A39E804109155AFDC14 /* NSObject+YYAdd.m */; };
+		05EEC454948D2160F4A007374F42888B /* UIImage+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F09B0E58B9CB774D969A5F4AF9EC42 /* UIImage+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4C5C0F7633D381298F7027515A3957 /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E50B503E1FB08FF460CDE4D3B079D /* UIDevice+YYAdd.m */; };
+		0FF57602BDFCC3C91F42588919F8D0A2 /* NSKeyedUnarchiver+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA79C8C0B9C1548A6C2E01C893A32A0 /* NSKeyedUnarchiver+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11750F63D7E29E19504309D7F27A0736 /* NSTimer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 229527E688A172984075C80A87F62EE8 /* NSTimer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		129A4E3C9DCB949DF12538421C98F5E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE97190892E0183D097318AF38DF135 /* UIKit.framework */; };
+		138374726C4F5E01317E27316CC2477E /* UIFont+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D05459B041597FFA022AF47CF60ABD3F /* UIFont+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13962976D26794E805D1E33463825FEB /* UIApplication+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E6F79FC450AFE1004835286C038D7 /* UIApplication+YYAdd.m */; };
+		158287AA78BF1DA224C59D62072FAFCC /* UIScreen+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FDEC31726C96B21FCCB0BDD6F05BA1A /* UIScreen+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		170A7B4F6543E68C9D3FEC25FC8A2529 /* Pods-LEGOCoreKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 172302025B254C99D0698AB8103776EA /* Pods-LEGOCoreKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C21C02A550530DD9B2BC79BBB27E4A8 /* Pods-LEGOCoreKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C014660AB47A2AEECB2D3567AC664A /* Pods-LEGOCoreKit_Example-dummy.m */; };
-		225196053E5997AA467799A6278403E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEE2AD0C4891FB3D71206D1EBDF6515 /* Foundation.framework */; };
-		50538780A20A0E848E622EAD1243C099 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87467B3873F8EEF6C7B668E2A299B9CE /* CoreLocation.framework */; };
-		5AA08772E9D43F3E155B7E6D885FDA07 /* Pods-LEGOCoreKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D97AEDDC28623B08050B31227006DBB1 /* Pods-LEGOCoreKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18EEB33CA02417DEB95D29125263E82B /* YYCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E5D1BFD81A90C492D5B1CE28EBAD25 /* YYCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		196A9433AA985512F23AC90E12DD7221 /* LGUtility+Locale.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C9D50701851560AC22D1CC68B3141 /* LGUtility+Locale.m */; };
+		1E1DF66C2FA450A37BDA52A9ACC39EC8 /* NSBundle+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF26D08F084187CD35E59DADCC4B3E0 /* NSBundle+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20389C72F42B550F502FE6E066EC8F7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0DAF808153F6C5D7BCCB5461FC5C2F /* CoreGraphics.framework */; };
+		204D899CD070E4BE1AEA36722304E45A /* UITableView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F253557C5C08CC4763C82430696219 /* UITableView+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		204EDED5ECDDC761E6F1E4A66977799B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D18C3DEE4A43B72680BAF8E4D66004 /* AVFoundation.framework */; };
+		20A1527BBA7DBC0834FF30E216682B33 /* YYCGUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5551EB2AB56E64F7C926665967532C2E /* YYCGUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2177CC2A4E07D3C04ABAF99614C74226 /* UIGestureRecognizer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 933D6EE2FC4524DD1AB62FEB481AB0C5 /* UIGestureRecognizer+YYAdd.m */; };
+		2388F093914233A59080A1CE63E35B5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99264E72F3EFA28765EC442505AA4A9D /* Foundation.framework */; };
+		25F30317AC20FBECEF8C791AB6330655 /* NSTimer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 191E91715F813A000661D9F276614EB8 /* NSTimer+YYAdd.m */; };
+		282FAFC613B9217916D6305AE1A3DD6B /* NSData+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8553EA916AA9966663B056F222645215 /* NSData+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29EC54684DC77D9A18CCBBEFD06153A4 /* NSObject+YYAddForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = A1495C5F0FE0B2852304B36C432DC950 /* NSObject+YYAddForKVO.m */; };
+		2B552A474047CB408EED60AB87D1F640 /* CALayer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EAC907556E3EEC98C6A1CAC7EFECD0 /* CALayer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C976479AA325C87190AB0FEEF672C2A /* NSThread+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0BAD8FDE15145A5BEE062D808FD6DD /* NSThread+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D75719C2E034F892917C42625CABF5B /* YYCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBE9C9B71DE8DE97CBC177D06621217 /* YYCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E84D469804B90CA890444D6EE47467C /* YYCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A72274F3E1605DE4F9C676F5DF2E0DD4 /* YYCGUtilities.m */; };
+		411C8F428409B9661FC1FE3492E25475 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19126480F65244E3B47C7BCBA20ADA9 /* UserNotifications.framework */; };
+		497C406F3313EA43C8903CA8FB8B853E /* UIBarButtonItem+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA23AEA3AC39CBF38031E5298CC2E3B /* UIBarButtonItem+YYAdd.m */; };
+		509C02ADAC9D446F808B5F2D2301D7B9 /* NSNotificationCenter+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5AE512D09EF36A603F96CA3B382770 /* NSNotificationCenter+YYAdd.m */; };
+		537B639F9CFE510C6D940CAD8D76BBFC /* UIFont+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B9CBBF19B03575C36B5E3D7B2624A /* UIFont+YYAdd.m */; };
+		566BA5F0456F087129D5F2629AE82DFC /* NSBundle+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0EABBE65E0B4344BF1F2E0D8C9595 /* NSBundle+YYAdd.m */; };
+		580145D1E9A9C869F6D5EAF618DAF83D /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC678F1950729C89EC59902068EED20 /* UIControl+YYAdd.m */; };
+		5975B3E0123A2E3BC311D14DF5EFE0FF /* NSDate+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = FC14D4B882662D692280AC4145B2C2FF /* NSDate+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59CE165306AB3B442F008E3DFEF6DA46 /* UIDevice+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E43CAB85D56BF48B739ADFC688BB440E /* UIDevice+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A06E71C73126733353A2B7FAD18F6CD /* NSArray+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 76000961FF781C19A0CE4E2FED081C12 /* NSArray+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC3CFD1C9A41DC00C82D4845823E7FD /* Pods-LEGOCoreKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C014660AB47A2AEECB2D3567AC664A /* Pods-LEGOCoreKit_Example-dummy.m */; };
+		5D28E9C4DABF82F49F84EBDACA7D1197 /* NSThread+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB92EA19E032F93E61DB95DBA4E9FCE /* NSThread+YYAdd.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5DE90448540FFB806799BDB977B4D86B /* CALayer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E105C4CE090C64DEAE07205EDDD707E4 /* CALayer+YYAdd.m */; };
+		5ED5C191C1FA8886191BEC941E7085ED /* UIBarButtonItem+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E03665796FDBFEA6A2FB2878A93F17 /* UIBarButtonItem+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F66691B748F1929A90F7054990B4CB2 /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D57E86CBDED70FAB22B6222101E2D025 /* NSDate+YYAdd.m */; };
 		5FFD73B1DE39D818BCD53E0FFFEE2A03 /* Pods-LEGOCoreKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC10D3F8FCD719BB0AD60EC71A0A2A7 /* Pods-LEGOCoreKit_Tests-dummy.m */; };
-		8D2F049C8E44F089167120050FE5A2BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEE2AD0C4891FB3D71206D1EBDF6515 /* Foundation.framework */; };
-		903C4E2B9531AD5845B21C36D3DCD42A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEE2AD0C4891FB3D71206D1EBDF6515 /* Foundation.framework */; };
-		925A9784D2DE6DE75FC3795FA2264401 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0592C96773FAB085E5A3BE61AD0A538 /* Photos.framework */; };
-		9FA290DF245896FDD8B17792BB21B9E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDB3C91ED07D530375A6E3193839A87 /* UIKit.framework */; };
-		A056512BB638AF9DBEC9E46DF42AB1F9 /* LEGOAuthorityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 55D7D3FBFF20CF533A92EB7945CEB17C /* LEGOAuthorityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1F21FE8E0E75A20C78F80441DA428CC /* LBGOCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA4A802A57F2C73B24304BA8F13193B /* LBGOCoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A832413242633228F736F2972DA21B7C /* LEGOPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8ACB524154AFBAA787EB76E56A699A /* LEGOPrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD9B32AF6FCDAE8784DEFD669547BDF8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F464B0FD84B9BA1FD1012BFAA045DA2 /* AVFoundation.framework */; };
-		AF68EA684DE87659580A7557D9F4EDB3 /* LEGOAuthorityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BB0D97C6ED4BC9203B6C29317AE72C /* LEGOAuthorityManager.m */; };
-		E136E62A476ABA2219D1E382DCBB4CD4 /* LEGOCoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4C6E70FFDB3FBA4DE406C403E34484 /* LEGOCoreKit-dummy.m */; };
-		F2F8D44B6814082D6771C4CCBC838B94 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D411606E3F2CB5855246DC09B4C7F5D3 /* UserNotifications.framework */; };
+		60387B79963E9E4978727B2A303149BE /* UIApplication+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4899763FF49173BB1470DE625D3388E4 /* UIApplication+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A1B7811C0C4DC74EF487B10EE8D737 /* YYCategories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364CFE2CFB7A1E8D8C0BB79BB68234B6 /* YYCategories.framework */; };
+		62DC3FC970E84095C662D3F421CA783D /* LGUtility+Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CC109E681648D2B73122EC81BAA0E2 /* LGUtility+Device.m */; };
+		62EF67750AA821E0D906F9E2D6407D5C /* NSArray+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F95FA87B36BDEE69676340CC6039E7DA /* NSArray+YYAdd.m */; };
+		6DF63FD661E570FA782B1890B5CB5701 /* UIBezierPath+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C642A6EDAD600D65DEC9605BA0ABBA61 /* UIBezierPath+YYAdd.m */; };
+		700A02AA0BEFA8392C3D7F27B407F45D /* LGAuthorityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 44153F871A0C4EBAD9C170EA1C69B81D /* LGAuthorityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7049F1F13EEFFD8C0FFF31E769FA8486 /* NSString+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B36E8DCEF4DDDC233F8B6A850923A4 /* NSString+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70FF6E3E624679359D6F3D3DF08FCCF9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ABD1739F3A6A556BFC382D3F978D6A /* ImageIO.framework */; };
+		75FCCBDD60C20748B07EFA3A67EC4DF7 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF4F2C3EE2E0C83FB9DDC25A947FEC /* UIView+YYAdd.m */; };
+		78343DAD217E00580EE2D85B21F81376 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4105BE52009D053BC69D0085C1D1E5EE /* NSData+YYAdd.m */; };
+		81CDD9F5D942D9C8559E198177B08144 /* UIColor+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 883CD9148C350B8EB838563A9AF5DDE2 /* UIColor+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829088479ECC6B9BCA4A7D4B3309A2FC /* UIScrollView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB489ECB0DBB5B634B62668C56CAF83 /* UIScrollView+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82EA6424A9995E073F510BB81866821C /* LGUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9292D9D590DA7BF18D25C87E6EE0BAD6 /* LGUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84DB5B205B646A21AF68D7F435D156C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE97190892E0183D097318AF38DF135 /* UIKit.framework */; };
+		8759AA344E3F5122A8770BFD84D1F2F6 /* LEGOCoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F0D34412B0AC4F71A4C066461E12A /* LEGOCoreKit-dummy.m */; };
+		8AC392486191349D986AC08107CFAA02 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4725F4737F6ED694F27FEF27E279438 /* CoreFoundation.framework */; };
+		903C4E2B9531AD5845B21C36D3DCD42A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99264E72F3EFA28765EC442505AA4A9D /* Foundation.framework */; };
+		954CAEBBDFAFB352F67B611093C8871F /* NSNotificationCenter+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0FF8403FC61A02E995AC7A931A48FD /* NSNotificationCenter+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A00D4C56A22D00FA02C26D48A0533ABC /* NSNumber+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 20EACB4056459DB22A6DD52A319F4EB8 /* NSNumber+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2802EAE52711D90F64E6BD73E61C4D1 /* LGCoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D53B642C22BAFA7F3E81268BE13BACE /* LGCoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BDD5A7A2AF4538C79C345CE0588CE6 /* NSDictionary+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0E2306D5124159C4669382847BBB2 /* NSDictionary+YYAdd.m */; };
+		A8410FE4C1F68B7AE3AF5EE6585A9A13 /* NSDictionary+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D86D4950DDF46646DBBE36648B71A9D1 /* NSDictionary+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFB512F1EF24701F0ABD1AC0A1655566 /* UIGestureRecognizer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 737ABCA7572C3ED1FCD3E4D625332FB8 /* UIGestureRecognizer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFF5EE915392F42333F078D6EE6BF3D2 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = ED77CF5A31C958CE56635DD6BE9D19D0 /* NSNumber+YYAdd.m */; };
+		B0843FB05C3D210EBB7495AB78B4FF04 /* LGSystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D522A065CD14E5D00116765B66CFE8C /* LGSystemInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0F545AE447A644A490B9B592B1B67E5 /* YYCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B60FC3F9F02BB364B9F55992541F88CC /* YYCategories-dummy.m */; };
+		B3D596FA2DDE6D9E741F68BE67F2BCE7 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC009191E6515A862BF4B3A8833A67B4 /* Photos.framework */; };
+		B9AF395341E14D575769166ACBA3EF9D /* LGSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BA06D3FBC00D9554B33B66E6DE0B57CE /* LGSystemInfo.m */; };
+		BA5D365940A0D73A8EF0C79CFE91A632 /* Pods-LEGOCoreKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D97AEDDC28623B08050B31227006DBB1 /* Pods-LEGOCoreKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA94DD6AD54D9ABA9D31A337EA69E631 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BCEB209F41BBD42AD2FDC87E49FCD5 /* NSString+YYAdd.m */; };
+		BD1CEAB10E2D549DC6B07233D4BAF6F1 /* NSKeyedUnarchiver+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 514C0486968729553E66E300DAF3B029 /* NSKeyedUnarchiver+YYAdd.m */; };
+		C90FBFFEB061B1AA711EDBFA039E45B9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B10EA22A0E4A155F9B35F601A5B8B6D /* CoreLocation.framework */; };
+		C97A8A783F75D3B8EE5BC6371EF175F8 /* LGPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCC93EF2A7E14314999262E67E0F3E4 /* LGPrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA75E3B518D61EC4E19485A46FE451FB /* UITableView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBFE88D800AEC38C32B6496A8F126F /* UITableView+YYAdd.m */; };
+		CBC96995D6E6DAEFA84703D5D47CFF67 /* LGUtility+App.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A56C2EE4D047B1DCB051A5AA13E052 /* LGUtility+App.m */; };
+		CF5FC67E3116ADA0C00B2D734D9B2345 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C818572321DD7702E2527B9FFD3BD2 /* Accelerate.framework */; };
+		D01C8641DF4593D110CD2921296431A4 /* NSObject+YYAddForKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = E72154CB3EE2C2A7E0B7D181418607D6 /* NSObject+YYAddForKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D10B45C479010FFD7A89FA99C2D1AD9E /* UIImage+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0473356F464D6B75284A752688FB77 /* UIImage+YYAdd.m */; };
+		D8ACBDBEAA870834AC6DE6C5D251228B /* UIScreen+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = A248B387F425C7F7FA1E0AAB024220A6 /* UIScreen+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB6D56BFFC13203C7C4A6300E07C4418 /* YYCategoriesMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FCDC72E6EA45303C5684093FE07C03 /* YYCategoriesMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7172C497C1BC391A988FE5A5326A47 /* LEGOCoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 599B604A925D1E8C39524EAC0CC32202 /* LEGOCoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBCF0C612ACD571F77B7907E190A67E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6F6E50E67690F8A400BA48EA0EB20F /* QuartzCore.framework */; };
+		E28501B2696B6A98673C95155ADA8E59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99264E72F3EFA28765EC442505AA4A9D /* Foundation.framework */; };
+		E316A301E7184CA1221DB8140D20A9B2 /* UIView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B6CEE5354A1E1C5C66B922068C05EA /* UIView+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42785A67F9E4F3A1244C2340E1854CB /* UIScreen+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA37D925192320571E3ECEF15A2338 /* UIScreen+Utility.m */; };
+		EBFBC722181748CECC33A8B4F1B03D8E /* UITextField+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3606CAFE50B59296438D837CB7DF08 /* UITextField+YYAdd.m */; };
+		ECB34E00337D66E9D9BE72AD26CE5E8F /* NSObject+YYAddForARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DCD7117B725826C1807F73DB3A4D75 /* NSObject+YYAddForARC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F09C83C2D2444B1FA98886CB68508CFE /* LGUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E3573FFFF042F950FB513A8DF7A14 /* LGUtility.m */; };
+		F203D39A4F9E711595B5748176ADB476 /* UIScrollView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A252FEFDFC553A288D94C97683BDF900 /* UIScrollView+YYAdd.m */; };
+		F3C3072CCF218D335B49C669CCB77577 /* UIColor+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E95A876E488B8AC96B3D6688D867C756 /* UIColor+YYAdd.m */; };
+		F562D1E1D04EBFDF82B1BF5082F15283 /* UIBezierPath+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 320D76266D1977E92B3320E03AE3187F /* UIBezierPath+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65318935A23B2DB22ED63E704FB5DF1 /* LGAuthorityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CFEF5ABF4C8F0E4969E1043277F03C /* LGAuthorityManager.m */; };
+		F7383331FB82A57D7D8EE843DACEADAA /* UIControl+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD446FFDEF45867A518AD24C547AF87 /* UIControl+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8FF58BB42B5465501E35F6815FC202F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D53CAEA2795AEFCA94BE33279405749B /* CoreImage.framework */; };
+		F9F0B076BC5E460275BC2F1E06EB0AAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99264E72F3EFA28765EC442505AA4A9D /* Foundation.framework */; };
+		FBAD1FEB6DE9748ECB46B2B0D355CDC1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A907EC095B3F3F93AB8A92B463B47F29 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,62 +115,200 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2A298966374B18CCE44EE0594614417C;
+			remoteGlobalIDString = 1FE7F3D98F7412DFC9E4188E97BC1382;
 			remoteInfo = "Pods-LEGOCoreKit_Example";
 		};
-		4609282D886B75A16686D91A20F9FDA8 /* PBXContainerItemProxy */ = {
+		6B4F4D2F6B08AAB6BF510F566C4F73BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 672F6158A5AB523D17CFF5359BD141DC;
+			remoteGlobalIDString = DD46D05D9FCA0C7DDCF3056A42CC8744;
 			remoteInfo = LEGOCoreKit;
+		};
+		8E0898897A589D6DDD5DFEFFC6EB7ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F2F40F9F644B8DFDDC2D76CF8F62810;
+			remoteInfo = YYCategories;
+		};
+		8E0CA6E13FFE49A9FB2BB5A772F8BD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F2F40F9F644B8DFDDC2D76CF8F62810;
+			remoteInfo = YYCategories;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E03665796FDBFEA6A2FB2878A93F17 /* UIBarButtonItem+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+YYAdd.h"; path = "YYCategories/UIKit/UIBarButtonItem+YYAdd.h"; sourceTree = "<group>"; };
+		03CBFE88D800AEC38C32B6496A8F126F /* UITableView+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+YYAdd.m"; path = "YYCategories/UIKit/UITableView+YYAdd.m"; sourceTree = "<group>"; };
+		05ABD1739F3A6A556BFC382D3F978D6A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		061E6F79FC450AFE1004835286C038D7 /* UIApplication+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+YYAdd.m"; path = "YYCategories/UIKit/UIApplication+YYAdd.m"; sourceTree = "<group>"; };
 		0A1105C0429BDF9A091AD9A09D60293D /* Pods-LEGOCoreKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOCoreKit_Example-Info.plist"; sourceTree = "<group>"; };
 		0AC10D3F8FCD719BB0AD60EC71A0A2A7 /* Pods-LEGOCoreKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGOCoreKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		0AF714DCA8D94036BE57555C556534CB /* LEGOCoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LEGOCoreKit.modulemap; sourceTree = "<group>"; };
+		0B10EA22A0E4A155F9B35F601A5B8B6D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		0C0BAD8FDE15145A5BEE062D808FD6DD /* NSThread+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSThread+YYAdd.h"; path = "YYCategories/Foundation/NSThread+YYAdd.h"; sourceTree = "<group>"; };
+		0D522A065CD14E5D00116765B66CFE8C /* LGSystemInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSystemInfo.h; path = LEGOCoreKit/Classes/LGUtility/LGSystemInfo.h; sourceTree = "<group>"; };
+		0DC678F1950729C89EC59902068EED20 /* UIControl+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+YYAdd.m"; path = "YYCategories/UIKit/UIControl+YYAdd.m"; sourceTree = "<group>"; };
+		12CFEF5ABF4C8F0E4969E1043277F03C /* LGAuthorityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAuthorityManager.m; path = LEGOCoreKit/Classes/LGAuthority/LGAuthorityManager.m; sourceTree = "<group>"; };
+		14A56C2EE4D047B1DCB051A5AA13E052 /* LGUtility+App.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGUtility+App.m"; path = "LEGOCoreKit/Classes/LGUtility/LGUtility+App.m"; sourceTree = "<group>"; };
+		16C0E00A789C7593980FBB483F9DB865 /* LEGOCoreKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LEGOCoreKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		172302025B254C99D0698AB8103776EA /* Pods-LEGOCoreKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGOCoreKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1F464B0FD84B9BA1FD1012BFAA045DA2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		191E91715F813A000661D9F276614EB8 /* NSTimer+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+YYAdd.m"; path = "YYCategories/Foundation/NSTimer+YYAdd.m"; sourceTree = "<group>"; };
+		194EC1737CF47FFD2BA30BEBDFEB3268 /* Pods_LEGOCoreKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGOCoreKit_Tests.framework; path = "Pods-LEGOCoreKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C950E73DE105CDF89C33D8D44A6284 /* YYCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCategories.modulemap; sourceTree = "<group>"; };
+		200AE5D37C90AAFE679961945E18EDB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		20EACB4056459DB22A6DD52A319F4EB8 /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+YYAdd.h"; path = "YYCategories/Foundation/NSNumber+YYAdd.h"; sourceTree = "<group>"; };
+		229527E688A172984075C80A87F62EE8 /* NSTimer+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+YYAdd.h"; path = "YYCategories/Foundation/NSTimer+YYAdd.h"; sourceTree = "<group>"; };
 		265ED27697CA2367A9641BDED806495B /* Pods-LEGOCoreKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOCoreKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2985959B93A8656C770269A51C5477AE /* LEGOCoreKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LEGOCoreKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2B2C942287102DF13238C947C1ADD676 /* Pods-LEGOCoreKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGOCoreKit_Example.modulemap"; sourceTree = "<group>"; };
+		2D53B642C22BAFA7F3E81268BE13BACE /* LGCoreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGCoreKit.h; path = LEGOCoreKit/Classes/LGCoreKit.h; sourceTree = "<group>"; };
+		32002D8B457ED5E320E3103A988E224C /* UITextField+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+YYAdd.h"; path = "YYCategories/UIKit/UITextField+YYAdd.h"; sourceTree = "<group>"; };
+		320D76266D1977E92B3320E03AE3187F /* UIBezierPath+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+YYAdd.h"; path = "YYCategories/UIKit/UIBezierPath+YYAdd.h"; sourceTree = "<group>"; };
 		33BBD2263EE185FB8DBBCAA6624F7A87 /* Pods-LEGOCoreKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOCoreKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3A3BF5E683392E30FCEC022BBDDABF6F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		364CFE2CFB7A1E8D8C0BB79BB68234B6 /* YYCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3E26D6DD116E4035DFFAFE099BEB0D /* LEGOCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LEGOCoreKit.framework; path = LEGOCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5B549540C268074244520801DFAF8B /* Pods-LEGOCoreKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOCoreKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4105BE52009D053BC69D0085C1D1E5EE /* NSData+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+YYAdd.m"; path = "YYCategories/Foundation/NSData+YYAdd.m"; sourceTree = "<group>"; };
 		41C014660AB47A2AEECB2D3567AC664A /* Pods-LEGOCoreKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGOCoreKit_Example-dummy.m"; sourceTree = "<group>"; };
+		44153F871A0C4EBAD9C170EA1C69B81D /* LGAuthorityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAuthorityManager.h; path = LEGOCoreKit/Classes/LGAuthority/LGAuthorityManager.h; sourceTree = "<group>"; };
+		442C9D50701851560AC22D1CC68B3141 /* LGUtility+Locale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGUtility+Locale.m"; path = "LEGOCoreKit/Classes/LGUtility/LGUtility+Locale.m"; sourceTree = "<group>"; };
+		46DCD7117B725826C1807F73DB3A4D75 /* NSObject+YYAddForARC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAddForARC.m"; path = "YYCategories/Foundation/NSObject+YYAddForARC.m"; sourceTree = "<group>"; };
 		4832A537FB443D8995038F3ACD398648 /* Pods-LEGOCoreKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOCoreKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		490258D97A739A6A68537591E26F7D03 /* LEGOCoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LEGOCoreKit.modulemap; sourceTree = "<group>"; };
-		55D7D3FBFF20CF533A92EB7945CEB17C /* LEGOAuthorityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEGOAuthorityManager.h; path = LEGOCoreKit/Classes/LEGOAuthority/LEGOAuthorityManager.h; sourceTree = "<group>"; };
+		4899763FF49173BB1470DE625D3388E4 /* UIApplication+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+YYAdd.h"; path = "YYCategories/UIKit/UIApplication+YYAdd.h"; sourceTree = "<group>"; };
+		4A5E3573FFFF042F950FB513A8DF7A14 /* LGUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGUtility.m; path = LEGOCoreKit/Classes/LGUtility/LGUtility.m; sourceTree = "<group>"; };
+		4DA23AEA3AC39CBF38031E5298CC2E3B /* UIBarButtonItem+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+YYAdd.m"; path = "YYCategories/UIKit/UIBarButtonItem+YYAdd.m"; sourceTree = "<group>"; };
+		4EA79C8C0B9C1548A6C2E01C893A32A0 /* NSKeyedUnarchiver+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSKeyedUnarchiver+YYAdd.h"; path = "YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.h"; sourceTree = "<group>"; };
+		509364BF534189F07F26FF568DCF9971 /* UIScreen+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+YYAdd.m"; path = "YYCategories/UIKit/UIScreen+YYAdd.m"; sourceTree = "<group>"; };
+		514C0486968729553E66E300DAF3B029 /* NSKeyedUnarchiver+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSKeyedUnarchiver+YYAdd.m"; path = "YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.m"; sourceTree = "<group>"; };
+		546E50B503E1FB08FF460CDE4D3B079D /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+YYAdd.m"; path = "YYCategories/UIKit/UIDevice+YYAdd.m"; sourceTree = "<group>"; };
+		5551EB2AB56E64F7C926665967532C2E /* YYCGUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCGUtilities.h; path = YYCategories/Quartz/YYCGUtilities.h; sourceTree = "<group>"; };
+		5561275F04ED8AEAEA02FA0B412FBE31 /* Pods_LEGOCoreKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGOCoreKit_Example.framework; path = "Pods-LEGOCoreKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B36E8DCEF4DDDC233F8B6A850923A4 /* NSString+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YYAdd.h"; path = "YYCategories/Foundation/NSString+YYAdd.h"; sourceTree = "<group>"; };
 		5846EC2DEEBC6F6F5809504E69241733 /* Pods-LEGOCoreKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGOCoreKit_Tests.modulemap"; sourceTree = "<group>"; };
-		5BFA10530FB4351C2D07F2F85E345086 /* Pods_LEGOCoreKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGOCoreKit_Example.framework; path = "Pods-LEGOCoreKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62BB0D97C6ED4BC9203B6C29317AE72C /* LEGOAuthorityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LEGOAuthorityManager.m; path = LEGOCoreKit/Classes/LEGOAuthority/LEGOAuthorityManager.m; sourceTree = "<group>"; };
-		6E8ACB524154AFBAA787EB76E56A699A /* LEGOPrefix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEGOPrefix.h; path = LEGOCoreKit/Classes/LEGOPrefix/LEGOPrefix.h; sourceTree = "<group>"; };
-		8707240A35775683ABE4328E08748421 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		87467B3873F8EEF6C7B668E2A299B9CE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		584B9CBBF19B03575C36B5E3D7B2624A /* UIFont+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+YYAdd.m"; path = "YYCategories/UIKit/UIFont+YYAdd.m"; sourceTree = "<group>"; };
+		599B604A925D1E8C39524EAC0CC32202 /* LEGOCoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGOCoreKit-umbrella.h"; sourceTree = "<group>"; };
+		5DF26D08F084187CD35E59DADCC4B3E0 /* NSBundle+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+YYAdd.h"; path = "YYCategories/Foundation/NSBundle+YYAdd.h"; sourceTree = "<group>"; };
+		5E6F6E50E67690F8A400BA48EA0EB20F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5ED2ECDECD235A39E804109155AFDC14 /* NSObject+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAdd.m"; path = "YYCategories/Foundation/NSObject+YYAdd.m"; sourceTree = "<group>"; };
+		60EAC907556E3EEC98C6A1CAC7EFECD0 /* CALayer+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYAdd.h"; path = "YYCategories/Quartz/CALayer+YYAdd.h"; sourceTree = "<group>"; };
+		6484F86AF364B483B5DF1F6608D907E2 /* YYCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCategories-prefix.pch"; sourceTree = "<group>"; };
+		6FDEC31726C96B21FCCB0BDD6F05BA1A /* UIScreen+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+YYAdd.h"; path = "YYCategories/UIKit/UIScreen+YYAdd.h"; sourceTree = "<group>"; };
+		712C7E68A06E337FBB37738259C87932 /* LEGOCoreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEGOCoreKit.xcconfig; sourceTree = "<group>"; };
+		737ABCA7572C3ED1FCD3E4D625332FB8 /* UIGestureRecognizer+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+YYAdd.h"; path = "YYCategories/UIKit/UIGestureRecognizer+YYAdd.h"; sourceTree = "<group>"; };
+		76000961FF781C19A0CE4E2FED081C12 /* NSArray+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+YYAdd.h"; path = "YYCategories/Foundation/NSArray+YYAdd.h"; sourceTree = "<group>"; };
+		7B3F0D34412B0AC4F71A4C066461E12A /* LEGOCoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEGOCoreKit-dummy.m"; sourceTree = "<group>"; };
+		7E5AE512D09EF36A603F96CA3B382770 /* NSNotificationCenter+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+YYAdd.m"; path = "YYCategories/Foundation/NSNotificationCenter+YYAdd.m"; sourceTree = "<group>"; };
+		7FFA37D925192320571E3ECEF15A2338 /* UIScreen+Utility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+Utility.m"; path = "LEGOCoreKit/Classes/LGUtility/UIScreen+Utility.m"; sourceTree = "<group>"; };
+		80F09B0E58B9CB774D969A5F4AF9EC42 /* UIImage+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YYAdd.h"; path = "YYCategories/UIKit/UIImage+YYAdd.h"; sourceTree = "<group>"; };
+		8553EA916AA9966663B056F222645215 /* NSData+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+YYAdd.h"; path = "YYCategories/Foundation/NSData+YYAdd.h"; sourceTree = "<group>"; };
+		883CD9148C350B8EB838563A9AF5DDE2 /* UIColor+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YYAdd.h"; path = "YYCategories/UIKit/UIColor+YYAdd.h"; sourceTree = "<group>"; };
+		88CC109E681648D2B73122EC81BAA0E2 /* LGUtility+Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LGUtility+Device.m"; path = "LEGOCoreKit/Classes/LGUtility/LGUtility+Device.m"; sourceTree = "<group>"; };
+		8BC0E2306D5124159C4669382847BBB2 /* NSDictionary+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YYAdd.m"; path = "YYCategories/Foundation/NSDictionary+YYAdd.m"; sourceTree = "<group>"; };
+		8CB92EA19E032F93E61DB95DBA4E9FCE /* NSThread+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSThread+YYAdd.m"; path = "YYCategories/Foundation/NSThread+YYAdd.m"; sourceTree = "<group>"; };
+		8D0FF8403FC61A02E995AC7A931A48FD /* NSNotificationCenter+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+YYAdd.h"; path = "YYCategories/Foundation/NSNotificationCenter+YYAdd.h"; sourceTree = "<group>"; };
 		8D3B707948DDF769F9259ABD5A8C1F29 /* Pods-LEGOCoreKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOCoreKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8E30970C6D46DBECBBC12CC9C5D7812B /* Pods_LEGOCoreKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGOCoreKit_Tests.framework; path = "Pods-LEGOCoreKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF0EABBE65E0B4344BF1F2E0D8C9595 /* NSBundle+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+YYAdd.m"; path = "YYCategories/Foundation/NSBundle+YYAdd.m"; sourceTree = "<group>"; };
+		90FCDC72E6EA45303C5684093FE07C03 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCategoriesMacro.h; path = YYCategories/YYCategoriesMacro.h; sourceTree = "<group>"; };
+		9292D9D590DA7BF18D25C87E6EE0BAD6 /* LGUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGUtility.h; path = LEGOCoreKit/Classes/LGUtility/LGUtility.h; sourceTree = "<group>"; };
+		933D6EE2FC4524DD1AB62FEB481AB0C5 /* UIGestureRecognizer+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+YYAdd.m"; path = "YYCategories/UIKit/UIGestureRecognizer+YYAdd.m"; sourceTree = "<group>"; };
+		97BCEB209F41BBD42AD2FDC87E49FCD5 /* NSString+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YYAdd.m"; path = "YYCategories/Foundation/NSString+YYAdd.m"; sourceTree = "<group>"; };
+		99264E72F3EFA28765EC442505AA4A9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9A5848E4DCA7E5D436BE8EEE12507177 /* Pods-LEGOCoreKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGOCoreKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BB489ECB0DBB5B634B62668C56CAF83 /* UIScrollView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+YYAdd.h"; path = "YYCategories/UIKit/UIScrollView+YYAdd.h"; sourceTree = "<group>"; };
+		9D3606CAFE50B59296438D837CB7DF08 /* UITextField+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+YYAdd.m"; path = "YYCategories/UIKit/UITextField+YYAdd.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F4C6E70FFDB3FBA4DE406C403E34484 /* LEGOCoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEGOCoreKit-dummy.m"; sourceTree = "<group>"; };
-		A4CE28345E0A869BDD0EF20EE29749CD /* LEGOCoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGOCoreKit-prefix.pch"; sourceTree = "<group>"; };
-		B3B37FA35261E16C60B9CD0B1045E4D3 /* LEGOCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LEGOCoreKit.framework; path = LEGOCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCF4F2C3EE2E0C83FB9DDC25A947FEC /* UIView+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YYAdd.m"; path = "YYCategories/UIKit/UIView+YYAdd.m"; sourceTree = "<group>"; };
+		A02D199BD14203970F754F14A54D27BF /* YYCategories-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYCategories-Info.plist"; sourceTree = "<group>"; };
+		A1495C5F0FE0B2852304B36C432DC950 /* NSObject+YYAddForKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYAddForKVO.m"; path = "YYCategories/Foundation/NSObject+YYAddForKVO.m"; sourceTree = "<group>"; };
+		A248B387F425C7F7FA1E0AAB024220A6 /* UIScreen+Utility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+Utility.h"; path = "LEGOCoreKit/Classes/LGUtility/UIScreen+Utility.h"; sourceTree = "<group>"; };
+		A252FEFDFC553A288D94C97683BDF900 /* UIScrollView+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+YYAdd.m"; path = "YYCategories/UIKit/UIScrollView+YYAdd.m"; sourceTree = "<group>"; };
+		A2E5D1BFD81A90C492D5B1CE28EBAD25 /* YYCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCategories.h; path = YYCategories/YYCategories.h; sourceTree = "<group>"; };
+		A4725F4737F6ED694F27FEF27E279438 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		A72274F3E1605DE4F9C676F5DF2E0DD4 /* YYCGUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCGUtilities.m; path = YYCategories/Quartz/YYCGUtilities.m; sourceTree = "<group>"; };
+		A7D18C3DEE4A43B72680BAF8E4D66004 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		A8C818572321DD7702E2527B9FFD3BD2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		A907EC095B3F3F93AB8A92B463B47F29 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		AB2F1704C3CB75D262C7292BD6699F04 /* LEGOCoreKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LEGOCoreKit-Info.plist"; sourceTree = "<group>"; };
+		AB39DD141CED40EE12327FCF7425ECC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B19126480F65244E3B47C7BCBA20ADA9 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		B1F253557C5C08CC4763C82430696219 /* UITableView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+YYAdd.h"; path = "YYCategories/UIKit/UITableView+YYAdd.h"; sourceTree = "<group>"; };
 		B3E89D3CFD90ACB8880F9E95C5B617D2 /* Pods-LEGOCoreKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOCoreKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		B60FC3F9F02BB364B9F55992541F88CC /* YYCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCategories-dummy.m"; sourceTree = "<group>"; };
+		B67046F5513E29C737E487904288B53B /* YYCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCategories.xcconfig; sourceTree = "<group>"; };
+		B7FEE18A5401ED2E5884739B10625062 /* NSObject+YYAddForARC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAddForARC.h"; path = "YYCategories/Foundation/NSObject+YYAddForARC.h"; sourceTree = "<group>"; };
 		B8C4C56E010B963D763F5E5F517F7ED2 /* Pods-LEGOCoreKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEGOCoreKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA06D3FBC00D9554B33B66E6DE0B57CE /* LGSystemInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSystemInfo.m; path = LEGOCoreKit/Classes/LGUtility/LGSystemInfo.m; sourceTree = "<group>"; };
 		BAA6294C6B6D494C0BDE41F4F22AE13A /* Pods-LEGOCoreKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOCoreKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BBA4A802A57F2C73B24304BA8F13193B /* LBGOCoreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBGOCoreKit.h; path = LEGOCoreKit/Classes/LBGOCoreKit.h; sourceTree = "<group>"; };
-		BFDB3C91ED07D530375A6E3193839A87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BDAF5B31C39BC5FA10B2502331A953CE /* LEGOCoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGOCoreKit-prefix.pch"; sourceTree = "<group>"; };
 		C0A19B7BC4BB6E1EEE2D35031E270879 /* Pods-LEGOCoreKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGOCoreKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C46FD5226EEEB66E8CC2462021CF529C /* LEGOCoreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEGOCoreKit.xcconfig; sourceTree = "<group>"; };
-		D0592C96773FAB085E5A3BE61AD0A538 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		D411606E3F2CB5855246DC09B4C7F5D3 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		C642A6EDAD600D65DEC9605BA0ABBA61 /* UIBezierPath+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+YYAdd.m"; path = "YYCategories/UIKit/UIBezierPath+YYAdd.m"; sourceTree = "<group>"; };
+		CAE01FDE5292789AC08BC7C8A729A93E /* NSObject+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAdd.h"; path = "YYCategories/Foundation/NSObject+YYAdd.h"; sourceTree = "<group>"; };
+		CC009191E6515A862BF4B3A8833A67B4 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		D05459B041597FFA022AF47CF60ABD3F /* UIFont+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+YYAdd.h"; path = "YYCategories/UIKit/UIFont+YYAdd.h"; sourceTree = "<group>"; };
+		D53CAEA2795AEFCA94BE33279405749B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		D57E86CBDED70FAB22B6222101E2D025 /* NSDate+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YYAdd.m"; path = "YYCategories/Foundation/NSDate+YYAdd.m"; sourceTree = "<group>"; };
+		D86D4950DDF46646DBBE36648B71A9D1 /* NSDictionary+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+YYAdd.h"; path = "YYCategories/Foundation/NSDictionary+YYAdd.h"; sourceTree = "<group>"; };
 		D97AEDDC28623B08050B31227006DBB1 /* Pods-LEGOCoreKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGOCoreKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		F5DD0369907492898106D98DE1512A3E /* LEGOCoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGOCoreKit-umbrella.h"; sourceTree = "<group>"; };
-		FD7DABA2D61A45CDE2D1618701066965 /* LEGOCoreKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LEGOCoreKit-Info.plist"; sourceTree = "<group>"; };
-		FEEE2AD0C4891FB3D71206D1EBDF6515 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBD446FFDEF45867A518AD24C547AF87 /* UIControl+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+YYAdd.h"; path = "YYCategories/UIKit/UIControl+YYAdd.h"; sourceTree = "<group>"; };
+		DD0DAF808153F6C5D7BCCB5461FC5C2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		DFCC93EF2A7E14314999262E67E0F3E4 /* LGPrefix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGPrefix.h; path = LEGOCoreKit/Classes/LGPrefix/LGPrefix.h; sourceTree = "<group>"; };
+		E105C4CE090C64DEAE07205EDDD707E4 /* CALayer+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYAdd.m"; path = "YYCategories/Quartz/CALayer+YYAdd.m"; sourceTree = "<group>"; };
+		E43CAB85D56BF48B739ADFC688BB440E /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+YYAdd.h"; path = "YYCategories/UIKit/UIDevice+YYAdd.h"; sourceTree = "<group>"; };
+		E72154CB3EE2C2A7E0B7D181418607D6 /* NSObject+YYAddForKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYAddForKVO.h"; path = "YYCategories/Foundation/NSObject+YYAddForKVO.h"; sourceTree = "<group>"; };
+		E8B6CEE5354A1E1C5C66B922068C05EA /* UIView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YYAdd.h"; path = "YYCategories/UIKit/UIView+YYAdd.h"; sourceTree = "<group>"; };
+		E95A876E488B8AC96B3D6688D867C756 /* UIColor+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YYAdd.m"; path = "YYCategories/UIKit/UIColor+YYAdd.m"; sourceTree = "<group>"; };
+		EB0473356F464D6B75284A752688FB77 /* UIImage+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YYAdd.m"; path = "YYCategories/UIKit/UIImage+YYAdd.m"; sourceTree = "<group>"; };
+		ED77CF5A31C958CE56635DD6BE9D19D0 /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+YYAdd.m"; path = "YYCategories/Foundation/NSNumber+YYAdd.m"; sourceTree = "<group>"; };
+		EFBE9C9B71DE8DE97CBC177D06621217 /* YYCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCategories-umbrella.h"; sourceTree = "<group>"; };
+		EFE97190892E0183D097318AF38DF135 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F273D0CEAC57B8EE55FC64DDD86D7920 /* YYCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCategories.framework; path = YYCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95FA87B36BDEE69676340CC6039E7DA /* NSArray+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+YYAdd.m"; path = "YYCategories/Foundation/NSArray+YYAdd.m"; sourceTree = "<group>"; };
+		FC14D4B882662D692280AC4145B2C2FF /* NSDate+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YYAdd.h"; path = "YYCategories/Foundation/NSDate+YYAdd.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		34727100564AC844F79A4EE4963E1CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28501B2696B6A98673C95155ADA8E59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B31B4FC3EEBB312AB2312EDC8A72CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204EDED5ECDDC761E6F1E4A66977799B /* AVFoundation.framework in Frameworks */,
+				C90FBFFEB061B1AA711EDBFA039E45B9 /* CoreLocation.framework in Frameworks */,
+				F9F0B076BC5E460275BC2F1E06EB0AAD /* Foundation.framework in Frameworks */,
+				B3D596FA2DDE6D9E741F68BE67F2BCE7 /* Photos.framework in Frameworks */,
+				84DB5B205B646A21AF68D7F435D156C2 /* UIKit.framework in Frameworks */,
+				411C8F428409B9661FC1FE3492E25475 /* UserNotifications.framework in Frameworks */,
+				62A1B7811C0C4DC74EF487B10EE8D737 /* YYCategories.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29AECA9BD3EFADF822784BA3AB2A8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5FC67E3116ADA0C00B2D734D9B2345 /* Accelerate.framework in Frameworks */,
+				8AC392486191349D986AC08107CFAA02 /* CoreFoundation.framework in Frameworks */,
+				20389C72F42B550F502FE6E066EC8F7D /* CoreGraphics.framework in Frameworks */,
+				F8FF58BB42B5465501E35F6815FC202F /* CoreImage.framework in Frameworks */,
+				FBAD1FEB6DE9748ECB46B2B0D355CDC1 /* CoreText.framework in Frameworks */,
+				2388F093914233A59080A1CE63E35B5C /* Foundation.framework in Frameworks */,
+				70FF6E3E624679359D6F3D3DF08FCCF9 /* ImageIO.framework in Frameworks */,
+				DBCF0C612ACD571F77B7907E190A67E6 /* QuartzCore.framework in Frameworks */,
+				129A4E3C9DCB949DF12538421C98F5E4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D59F3D34327F42622C9F785CBEE3F21C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,81 +317,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF373C725E0D1589928FAEDC4C15372A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D2F049C8E44F089167120050FE5A2BC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6F904A1D2CA05F9DBEA833C43E709D1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD9B32AF6FCDAE8784DEFD669547BDF8 /* AVFoundation.framework in Frameworks */,
-				50538780A20A0E848E622EAD1243C099 /* CoreLocation.framework in Frameworks */,
-				225196053E5997AA467799A6278403E2 /* Foundation.framework in Frameworks */,
-				925A9784D2DE6DE75FC3795FA2264401 /* Photos.framework in Frameworks */,
-				9FA290DF245896FDD8B17792BB21B9E4 /* UIKit.framework in Frameworks */,
-				F2F8D44B6814082D6771C4CCBC838B94 /* UserNotifications.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		172A79BD9A1A338B104A1D28A40F7D32 /* Support Files */ = {
+		0F33248278E7AFDB381E86E9E6C6B256 /* LGPrefix */ = {
 			isa = PBXGroup;
 			children = (
-				490258D97A739A6A68537591E26F7D03 /* LEGOCoreKit.modulemap */,
-				C46FD5226EEEB66E8CC2462021CF529C /* LEGOCoreKit.xcconfig */,
-				9F4C6E70FFDB3FBA4DE406C403E34484 /* LEGOCoreKit-dummy.m */,
-				FD7DABA2D61A45CDE2D1618701066965 /* LEGOCoreKit-Info.plist */,
-				A4CE28345E0A869BDD0EF20EE29749CD /* LEGOCoreKit-prefix.pch */,
-				F5DD0369907492898106D98DE1512A3E /* LEGOCoreKit-umbrella.h */,
+				DFCC93EF2A7E14314999262E67E0F3E4 /* LGPrefix.h */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LEGOCoreKit";
+			name = LGPrefix;
 			sourceTree = "<group>";
 		};
-		23632B9F7470AD423A0BDBA0D99C0AFC /* Development Pods */ = {
+		0F85EC4D40989E7A7718B10EEBA0C703 /* LEGOCoreKit */ = {
 			isa = PBXGroup;
 			children = (
-				72BBDB6E0FAB0A7F187CCB3A4FF11E8A /* LEGOCoreKit */,
+				2D53B642C22BAFA7F3E81268BE13BACE /* LGCoreKit.h */,
+				DB08E754B763B77EE62A78DE06E392E1 /* LGAuthority */,
+				0F33248278E7AFDB381E86E9E6C6B256 /* LGPrefix */,
+				A1BEA7C31D3697474F9301B283494AF0 /* LGUtility */,
+				29FC0E29699D572BD9F867DF45B111A5 /* Pod */,
+				6B6CED45555A257B00728D5C2994AE3A /* Support Files */,
 			);
-			name = "Development Pods";
+			name = LEGOCoreKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		33B635A3D1E67342AF8FC03785A5793A /* iOS */ = {
+		29FC0E29699D572BD9F867DF45B111A5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1F464B0FD84B9BA1FD1012BFAA045DA2 /* AVFoundation.framework */,
-				87467B3873F8EEF6C7B668E2A299B9CE /* CoreLocation.framework */,
-				FEEE2AD0C4891FB3D71206D1EBDF6515 /* Foundation.framework */,
-				D0592C96773FAB085E5A3BE61AD0A538 /* Photos.framework */,
-				BFDB3C91ED07D530375A6E3193839A87 /* UIKit.framework */,
-				D411606E3F2CB5855246DC09B4C7F5D3 /* UserNotifications.framework */,
+				16C0E00A789C7593980FBB483F9DB865 /* LEGOCoreKit.podspec */,
+				AB39DD141CED40EE12327FCF7425ECC3 /* LICENSE */,
+				200AE5D37C90AAFE679961945E18EDB1 /* README.md */,
 			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		434F5F94B371577C516D7D7002D6C363 /* LEGOPrefix */ = {
+		33EC9EC28586B92C2E672E6C4F43519B /* no-arc */ = {
 			isa = PBXGroup;
 			children = (
-				6E8ACB524154AFBAA787EB76E56A699A /* LEGOPrefix.h */,
+				B7FEE18A5401ED2E5884739B10625062 /* NSObject+YYAddForARC.h */,
+				46DCD7117B725826C1807F73DB3A4D75 /* NSObject+YYAddForARC.m */,
+				0C0BAD8FDE15145A5BEE062D808FD6DD /* NSThread+YYAdd.h */,
+				8CB92EA19E032F93E61DB95DBA4E9FCE /* NSThread+YYAdd.m */,
 			);
-			name = LEGOPrefix;
-			sourceTree = "<group>";
-		};
-		4C5D851FE19E9DB2BEEE906434DA594C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B3B37FA35261E16C60B9CD0B1045E4D3 /* LEGOCoreKit.framework */,
-				5BFA10530FB4351C2D07F2F85E345086 /* Pods_LEGOCoreKit_Example.framework */,
-				8E30970C6D46DBECBBC12CC9C5D7812B /* Pods_LEGOCoreKit_Tests.framework */,
-			);
-			name = Products;
+			name = "no-arc";
 			sourceTree = "<group>";
 		};
 		6696A04768A1905F1EFF49CBAF8BD49E /* Pods-LEGOCoreKit_Example */ = {
@@ -190,26 +380,65 @@
 			path = "Target Support Files/Pods-LEGOCoreKit_Example";
 			sourceTree = "<group>";
 		};
-		72BBDB6E0FAB0A7F187CCB3A4FF11E8A /* LEGOCoreKit */ = {
+		69BDFFB49B41558B024378105CE72EBA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBA4A802A57F2C73B24304BA8F13193B /* LBGOCoreKit.h */,
-				7809EA5F747F30831CE53AA92CA01F78 /* LEGOAuthority */,
-				434F5F94B371577C516D7D7002D6C363 /* LEGOPrefix */,
-				F4DA16318B1658C27D342CB585EA6EE3 /* Pod */,
-				172A79BD9A1A338B104A1D28A40F7D32 /* Support Files */,
+				19C950E73DE105CDF89C33D8D44A6284 /* YYCategories.modulemap */,
+				B67046F5513E29C737E487904288B53B /* YYCategories.xcconfig */,
+				B60FC3F9F02BB364B9F55992541F88CC /* YYCategories-dummy.m */,
+				A02D199BD14203970F754F14A54D27BF /* YYCategories-Info.plist */,
+				6484F86AF364B483B5DF1F6608D907E2 /* YYCategories-prefix.pch */,
+				EFBE9C9B71DE8DE97CBC177D06621217 /* YYCategories-umbrella.h */,
 			);
-			name = LEGOCoreKit;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/YYCategories";
 			sourceTree = "<group>";
 		};
-		7809EA5F747F30831CE53AA92CA01F78 /* LEGOAuthority */ = {
+		6B6CED45555A257B00728D5C2994AE3A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				55D7D3FBFF20CF533A92EB7945CEB17C /* LEGOAuthorityManager.h */,
-				62BB0D97C6ED4BC9203B6C29317AE72C /* LEGOAuthorityManager.m */,
+				0AF714DCA8D94036BE57555C556534CB /* LEGOCoreKit.modulemap */,
+				712C7E68A06E337FBB37738259C87932 /* LEGOCoreKit.xcconfig */,
+				7B3F0D34412B0AC4F71A4C066461E12A /* LEGOCoreKit-dummy.m */,
+				AB2F1704C3CB75D262C7292BD6699F04 /* LEGOCoreKit-Info.plist */,
+				BDAF5B31C39BC5FA10B2502331A953CE /* LEGOCoreKit-prefix.pch */,
+				599B604A925D1E8C39524EAC0CC32202 /* LEGOCoreKit-umbrella.h */,
 			);
-			name = LEGOAuthority;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LEGOCoreKit";
+			sourceTree = "<group>";
+		};
+		6DD1E0172693E220D43E8D814A205E25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				364CFE2CFB7A1E8D8C0BB79BB68234B6 /* YYCategories.framework */,
+				CB6DDD99AA35797F13A6071E562E23FC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90848879E40C53C1722CA91CC8658B37 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F85EC4D40989E7A7718B10EEBA0C703 /* LEGOCoreKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A1BEA7C31D3697474F9301B283494AF0 /* LGUtility */ = {
+			isa = PBXGroup;
+			children = (
+				0D522A065CD14E5D00116765B66CFE8C /* LGSystemInfo.h */,
+				BA06D3FBC00D9554B33B66E6DE0B57CE /* LGSystemInfo.m */,
+				9292D9D590DA7BF18D25C87E6EE0BAD6 /* LGUtility.h */,
+				4A5E3573FFFF042F950FB513A8DF7A14 /* LGUtility.m */,
+				14A56C2EE4D047B1DCB051A5AA13E052 /* LGUtility+App.m */,
+				88CC109E681648D2B73122EC81BAA0E2 /* LGUtility+Device.m */,
+				442C9D50701851560AC22D1CC68B3141 /* LGUtility+Locale.m */,
+				A248B387F425C7F7FA1E0AAB024220A6 /* UIScreen+Utility.h */,
+				7FFA37D925192320571E3ECEF15A2338 /* UIScreen+Utility.m */,
+			);
+			name = LGUtility;
 			sourceTree = "<group>";
 		};
 		AA035E68556CDD69CAF71E7ED55556FC /* Targets Support Files */ = {
@@ -237,33 +466,132 @@
 			path = "Target Support Files/Pods-LEGOCoreKit_Tests";
 			sourceTree = "<group>";
 		};
+		B99F12B1ACB9C1CE9859EB604C015A16 /* YYCategories */ = {
+			isa = PBXGroup;
+			children = (
+				60EAC907556E3EEC98C6A1CAC7EFECD0 /* CALayer+YYAdd.h */,
+				E105C4CE090C64DEAE07205EDDD707E4 /* CALayer+YYAdd.m */,
+				76000961FF781C19A0CE4E2FED081C12 /* NSArray+YYAdd.h */,
+				F95FA87B36BDEE69676340CC6039E7DA /* NSArray+YYAdd.m */,
+				5DF26D08F084187CD35E59DADCC4B3E0 /* NSBundle+YYAdd.h */,
+				8EF0EABBE65E0B4344BF1F2E0D8C9595 /* NSBundle+YYAdd.m */,
+				8553EA916AA9966663B056F222645215 /* NSData+YYAdd.h */,
+				4105BE52009D053BC69D0085C1D1E5EE /* NSData+YYAdd.m */,
+				FC14D4B882662D692280AC4145B2C2FF /* NSDate+YYAdd.h */,
+				D57E86CBDED70FAB22B6222101E2D025 /* NSDate+YYAdd.m */,
+				D86D4950DDF46646DBBE36648B71A9D1 /* NSDictionary+YYAdd.h */,
+				8BC0E2306D5124159C4669382847BBB2 /* NSDictionary+YYAdd.m */,
+				4EA79C8C0B9C1548A6C2E01C893A32A0 /* NSKeyedUnarchiver+YYAdd.h */,
+				514C0486968729553E66E300DAF3B029 /* NSKeyedUnarchiver+YYAdd.m */,
+				8D0FF8403FC61A02E995AC7A931A48FD /* NSNotificationCenter+YYAdd.h */,
+				7E5AE512D09EF36A603F96CA3B382770 /* NSNotificationCenter+YYAdd.m */,
+				20EACB4056459DB22A6DD52A319F4EB8 /* NSNumber+YYAdd.h */,
+				ED77CF5A31C958CE56635DD6BE9D19D0 /* NSNumber+YYAdd.m */,
+				CAE01FDE5292789AC08BC7C8A729A93E /* NSObject+YYAdd.h */,
+				5ED2ECDECD235A39E804109155AFDC14 /* NSObject+YYAdd.m */,
+				E72154CB3EE2C2A7E0B7D181418607D6 /* NSObject+YYAddForKVO.h */,
+				A1495C5F0FE0B2852304B36C432DC950 /* NSObject+YYAddForKVO.m */,
+				56B36E8DCEF4DDDC233F8B6A850923A4 /* NSString+YYAdd.h */,
+				97BCEB209F41BBD42AD2FDC87E49FCD5 /* NSString+YYAdd.m */,
+				229527E688A172984075C80A87F62EE8 /* NSTimer+YYAdd.h */,
+				191E91715F813A000661D9F276614EB8 /* NSTimer+YYAdd.m */,
+				4899763FF49173BB1470DE625D3388E4 /* UIApplication+YYAdd.h */,
+				061E6F79FC450AFE1004835286C038D7 /* UIApplication+YYAdd.m */,
+				00E03665796FDBFEA6A2FB2878A93F17 /* UIBarButtonItem+YYAdd.h */,
+				4DA23AEA3AC39CBF38031E5298CC2E3B /* UIBarButtonItem+YYAdd.m */,
+				320D76266D1977E92B3320E03AE3187F /* UIBezierPath+YYAdd.h */,
+				C642A6EDAD600D65DEC9605BA0ABBA61 /* UIBezierPath+YYAdd.m */,
+				883CD9148C350B8EB838563A9AF5DDE2 /* UIColor+YYAdd.h */,
+				E95A876E488B8AC96B3D6688D867C756 /* UIColor+YYAdd.m */,
+				DBD446FFDEF45867A518AD24C547AF87 /* UIControl+YYAdd.h */,
+				0DC678F1950729C89EC59902068EED20 /* UIControl+YYAdd.m */,
+				E43CAB85D56BF48B739ADFC688BB440E /* UIDevice+YYAdd.h */,
+				546E50B503E1FB08FF460CDE4D3B079D /* UIDevice+YYAdd.m */,
+				D05459B041597FFA022AF47CF60ABD3F /* UIFont+YYAdd.h */,
+				584B9CBBF19B03575C36B5E3D7B2624A /* UIFont+YYAdd.m */,
+				737ABCA7572C3ED1FCD3E4D625332FB8 /* UIGestureRecognizer+YYAdd.h */,
+				933D6EE2FC4524DD1AB62FEB481AB0C5 /* UIGestureRecognizer+YYAdd.m */,
+				80F09B0E58B9CB774D969A5F4AF9EC42 /* UIImage+YYAdd.h */,
+				EB0473356F464D6B75284A752688FB77 /* UIImage+YYAdd.m */,
+				6FDEC31726C96B21FCCB0BDD6F05BA1A /* UIScreen+YYAdd.h */,
+				509364BF534189F07F26FF568DCF9971 /* UIScreen+YYAdd.m */,
+				9BB489ECB0DBB5B634B62668C56CAF83 /* UIScrollView+YYAdd.h */,
+				A252FEFDFC553A288D94C97683BDF900 /* UIScrollView+YYAdd.m */,
+				B1F253557C5C08CC4763C82430696219 /* UITableView+YYAdd.h */,
+				03CBFE88D800AEC38C32B6496A8F126F /* UITableView+YYAdd.m */,
+				32002D8B457ED5E320E3103A988E224C /* UITextField+YYAdd.h */,
+				9D3606CAFE50B59296438D837CB7DF08 /* UITextField+YYAdd.m */,
+				E8B6CEE5354A1E1C5C66B922068C05EA /* UIView+YYAdd.h */,
+				9FCF4F2C3EE2E0C83FB9DDC25A947FEC /* UIView+YYAdd.m */,
+				A2E5D1BFD81A90C492D5B1CE28EBAD25 /* YYCategories.h */,
+				90FCDC72E6EA45303C5684093FE07C03 /* YYCategoriesMacro.h */,
+				5551EB2AB56E64F7C926665967532C2E /* YYCGUtilities.h */,
+				A72274F3E1605DE4F9C676F5DF2E0DD4 /* YYCGUtilities.m */,
+				33EC9EC28586B92C2E672E6C4F43519B /* no-arc */,
+				69BDFFB49B41558B024378105CE72EBA /* Support Files */,
+			);
+			name = YYCategories;
+			path = YYCategories;
+			sourceTree = "<group>";
+		};
+		BDB4CE1DF71718870764A298EF7EDDEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B3E26D6DD116E4035DFFAFE099BEB0D /* LEGOCoreKit.framework */,
+				5561275F04ED8AEAEA02FA0B412FBE31 /* Pods_LEGOCoreKit_Example.framework */,
+				194EC1737CF47FFD2BA30BEBDFEB3268 /* Pods_LEGOCoreKit_Tests.framework */,
+				F273D0CEAC57B8EE55FC64DDD86D7920 /* YYCategories.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1DDA22DEF755C34D7B985F17F66FEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B99F12B1ACB9C1CE9859EB604C015A16 /* YYCategories */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB6DDD99AA35797F13A6071E562E23FC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8C818572321DD7702E2527B9FFD3BD2 /* Accelerate.framework */,
+				A7D18C3DEE4A43B72680BAF8E4D66004 /* AVFoundation.framework */,
+				A4725F4737F6ED694F27FEF27E279438 /* CoreFoundation.framework */,
+				DD0DAF808153F6C5D7BCCB5461FC5C2F /* CoreGraphics.framework */,
+				D53CAEA2795AEFCA94BE33279405749B /* CoreImage.framework */,
+				0B10EA22A0E4A155F9B35F601A5B8B6D /* CoreLocation.framework */,
+				A907EC095B3F3F93AB8A92B463B47F29 /* CoreText.framework */,
+				99264E72F3EFA28765EC442505AA4A9D /* Foundation.framework */,
+				05ABD1739F3A6A556BFC382D3F978D6A /* ImageIO.framework */,
+				CC009191E6515A862BF4B3A8833A67B4 /* Photos.framework */,
+				5E6F6E50E67690F8A400BA48EA0EB20F /* QuartzCore.framework */,
+				EFE97190892E0183D097318AF38DF135 /* UIKit.framework */,
+				B19126480F65244E3B47C7BCBA20ADA9 /* UserNotifications.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				23632B9F7470AD423A0BDBA0D99C0AFC /* Development Pods */,
-				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
-				4C5D851FE19E9DB2BEEE906434DA594C /* Products */,
+				90848879E40C53C1722CA91CC8658B37 /* Development Pods */,
+				6DD1E0172693E220D43E8D814A205E25 /* Frameworks */,
+				BF1DDA22DEF755C34D7B985F17F66FEC /* Pods */,
+				BDB4CE1DF71718870764A298EF7EDDEB /* Products */,
 				AA035E68556CDD69CAF71E7ED55556FC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
+		DB08E754B763B77EE62A78DE06E392E1 /* LGAuthority */ = {
 			isa = PBXGroup;
 			children = (
-				33B635A3D1E67342AF8FC03785A5793A /* iOS */,
+				44153F871A0C4EBAD9C170EA1C69B81D /* LGAuthorityManager.h */,
+				12CFEF5ABF4C8F0E4969E1043277F03C /* LGAuthorityManager.m */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F4DA16318B1658C27D342CB585EA6EE3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2985959B93A8656C770269A51C5477AE /* LEGOCoreKit.podspec */,
-				3A3BF5E683392E30FCEC022BBDDABF6F /* LICENSE */,
-				8707240A35775683ABE4328E08748421 /* README.md */,
-			);
-			name = Pod;
+			name = LGAuthority;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,63 +605,107 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6838980CEEC808C1C9E185B077BCF460 /* Headers */ = {
+		23C9C2823CE5CB4CFA9864696CBC2DAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA08772E9D43F3E155B7E6D885FDA07 /* Pods-LEGOCoreKit_Example-umbrella.h in Headers */,
+				BA5D365940A0D73A8EF0C79CFE91A632 /* Pods-LEGOCoreKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A2D1BA5E51C10E1593E74863D722DE2 /* Headers */ = {
+		9AAE04E865BF548CEFCE818EFA4FCCCA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F21FE8E0E75A20C78F80441DA428CC /* LBGOCoreKit.h in Headers */,
-				A056512BB638AF9DBEC9E46DF42AB1F9 /* LEGOAuthorityManager.h in Headers */,
-				07FC0C15AFEE096A14AC737A06CC0A74 /* LEGOCoreKit-umbrella.h in Headers */,
-				A832413242633228F736F2972DA21B7C /* LEGOPrefix.h in Headers */,
+				DB7172C497C1BC391A988FE5A5326A47 /* LEGOCoreKit-umbrella.h in Headers */,
+				700A02AA0BEFA8392C3D7F27B407F45D /* LGAuthorityManager.h in Headers */,
+				A2802EAE52711D90F64E6BD73E61C4D1 /* LGCoreKit.h in Headers */,
+				C97A8A783F75D3B8EE5BC6371EF175F8 /* LGPrefix.h in Headers */,
+				B0843FB05C3D210EBB7495AB78B4FF04 /* LGSystemInfo.h in Headers */,
+				82EA6424A9995E073F510BB81866821C /* LGUtility.h in Headers */,
+				D8ACBDBEAA870834AC6DE6C5D251228B /* UIScreen+Utility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB611E504EE6960BC3CBD5D3D52619D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B552A474047CB408EED60AB87D1F640 /* CALayer+YYAdd.h in Headers */,
+				5A06E71C73126733353A2B7FAD18F6CD /* NSArray+YYAdd.h in Headers */,
+				1E1DF66C2FA450A37BDA52A9ACC39EC8 /* NSBundle+YYAdd.h in Headers */,
+				282FAFC613B9217916D6305AE1A3DD6B /* NSData+YYAdd.h in Headers */,
+				5975B3E0123A2E3BC311D14DF5EFE0FF /* NSDate+YYAdd.h in Headers */,
+				A8410FE4C1F68B7AE3AF5EE6585A9A13 /* NSDictionary+YYAdd.h in Headers */,
+				0FF57602BDFCC3C91F42588919F8D0A2 /* NSKeyedUnarchiver+YYAdd.h in Headers */,
+				954CAEBBDFAFB352F67B611093C8871F /* NSNotificationCenter+YYAdd.h in Headers */,
+				A00D4C56A22D00FA02C26D48A0533ABC /* NSNumber+YYAdd.h in Headers */,
+				04435A8B6281E2E361D67EF04A9C3B63 /* NSObject+YYAdd.h in Headers */,
+				0154C968B94B4005F37B21E5149D06D2 /* NSObject+YYAddForARC.h in Headers */,
+				D01C8641DF4593D110CD2921296431A4 /* NSObject+YYAddForKVO.h in Headers */,
+				7049F1F13EEFFD8C0FFF31E769FA8486 /* NSString+YYAdd.h in Headers */,
+				2C976479AA325C87190AB0FEEF672C2A /* NSThread+YYAdd.h in Headers */,
+				11750F63D7E29E19504309D7F27A0736 /* NSTimer+YYAdd.h in Headers */,
+				60387B79963E9E4978727B2A303149BE /* UIApplication+YYAdd.h in Headers */,
+				5ED5C191C1FA8886191BEC941E7085ED /* UIBarButtonItem+YYAdd.h in Headers */,
+				F562D1E1D04EBFDF82B1BF5082F15283 /* UIBezierPath+YYAdd.h in Headers */,
+				81CDD9F5D942D9C8559E198177B08144 /* UIColor+YYAdd.h in Headers */,
+				F7383331FB82A57D7D8EE843DACEADAA /* UIControl+YYAdd.h in Headers */,
+				59CE165306AB3B442F008E3DFEF6DA46 /* UIDevice+YYAdd.h in Headers */,
+				138374726C4F5E01317E27316CC2477E /* UIFont+YYAdd.h in Headers */,
+				AFB512F1EF24701F0ABD1AC0A1655566 /* UIGestureRecognizer+YYAdd.h in Headers */,
+				05EEC454948D2160F4A007374F42888B /* UIImage+YYAdd.h in Headers */,
+				158287AA78BF1DA224C59D62072FAFCC /* UIScreen+YYAdd.h in Headers */,
+				829088479ECC6B9BCA4A7D4B3309A2FC /* UIScrollView+YYAdd.h in Headers */,
+				204D899CD070E4BE1AEA36722304E45A /* UITableView+YYAdd.h in Headers */,
+				00FE972928F2B66E5E851CB23F947F38 /* UITextField+YYAdd.h in Headers */,
+				E316A301E7184CA1221DB8140D20A9B2 /* UIView+YYAdd.h in Headers */,
+				2D75719C2E034F892917C42625CABF5B /* YYCategories-umbrella.h in Headers */,
+				18EEB33CA02417DEB95D29125263E82B /* YYCategories.h in Headers */,
+				DB6D56BFFC13203C7C4A6300E07C4418 /* YYCategoriesMacro.h in Headers */,
+				20A1527BBA7DBC0834FF30E216682B33 /* YYCGUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2A298966374B18CCE44EE0594614417C /* Pods-LEGOCoreKit_Example */ = {
+		1FE7F3D98F7412DFC9E4188E97BC1382 /* Pods-LEGOCoreKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEED79B0591E2F20E73B34F4B264D342 /* Build configuration list for PBXNativeTarget "Pods-LEGOCoreKit_Example" */;
+			buildConfigurationList = C2DC007CE4A7773C0DDBACD234B5D059 /* Build configuration list for PBXNativeTarget "Pods-LEGOCoreKit_Example" */;
 			buildPhases = (
-				6838980CEEC808C1C9E185B077BCF460 /* Headers */,
-				172CBAC971EC0F0E34F96CFB62B083C3 /* Sources */,
-				DF373C725E0D1589928FAEDC4C15372A /* Frameworks */,
-				06F4FDA82F27170DA889DAF2B9E80AAC /* Resources */,
+				23C9C2823CE5CB4CFA9864696CBC2DAF /* Headers */,
+				A492AD617178496089FD32F260B86000 /* Sources */,
+				34727100564AC844F79A4EE4963E1CBD /* Frameworks */,
+				7720D00DC7A6AFDD9CBBC6F272D57B4D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61AE2F5F9AC31660771EA24854F3DBAA /* PBXTargetDependency */,
+				34D70DFAEC6E891637F3A1E807688F41 /* PBXTargetDependency */,
+				97F2AAD8559BDCC7E1F0B73472F56042 /* PBXTargetDependency */,
 			);
 			name = "Pods-LEGOCoreKit_Example";
 			productName = "Pods-LEGOCoreKit_Example";
-			productReference = 5BFA10530FB4351C2D07F2F85E345086 /* Pods_LEGOCoreKit_Example.framework */;
+			productReference = 5561275F04ED8AEAEA02FA0B412FBE31 /* Pods_LEGOCoreKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		672F6158A5AB523D17CFF5359BD141DC /* LEGOCoreKit */ = {
+		4F2F40F9F644B8DFDDC2D76CF8F62810 /* YYCategories */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B688104CDF0271F048940AC4E1D38436 /* Build configuration list for PBXNativeTarget "LEGOCoreKit" */;
+			buildConfigurationList = 351EABF0174F5D76CD37EA46D8634E3E /* Build configuration list for PBXNativeTarget "YYCategories" */;
 			buildPhases = (
-				7A2D1BA5E51C10E1593E74863D722DE2 /* Headers */,
-				B53BBD50BABC46CED964BC6472335316 /* Sources */,
-				E6F904A1D2CA05F9DBEA833C43E709D1 /* Frameworks */,
-				DF03CAF6F8EE65A4064E9AD5327147F2 /* Resources */,
+				AB611E504EE6960BC3CBD5D3D52619D1 /* Headers */,
+				065816B62D827752AB58D80F1ECDE3C3 /* Sources */,
+				A29AECA9BD3EFADF822784BA3AB2A8D3 /* Frameworks */,
+				39AB5DF5A96D63EFEC554EEC092BE0B7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LEGOCoreKit;
-			productName = LEGOCoreKit;
-			productReference = B3B37FA35261E16C60B9CD0B1045E4D3 /* LEGOCoreKit.framework */;
+			name = YYCategories;
+			productName = YYCategories;
+			productReference = F273D0CEAC57B8EE55FC64DDD86D7920 /* YYCategories.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B649ECED36F44D7ABAAA2555BB9C9E59 /* Pods-LEGOCoreKit_Tests */ = {
@@ -352,7 +724,26 @@
 			);
 			name = "Pods-LEGOCoreKit_Tests";
 			productName = "Pods-LEGOCoreKit_Tests";
-			productReference = 8E30970C6D46DBECBBC12CC9C5D7812B /* Pods_LEGOCoreKit_Tests.framework */;
+			productReference = 194EC1737CF47FFD2BA30BEBDFEB3268 /* Pods_LEGOCoreKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD46D05D9FCA0C7DDCF3056A42CC8744 /* LEGOCoreKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0708A178C4EEA815E56F3AFECECF0180 /* Build configuration list for PBXNativeTarget "LEGOCoreKit" */;
+			buildPhases = (
+				9AAE04E865BF548CEFCE818EFA4FCCCA /* Headers */,
+				6D1CE29D00E3363E02F60DF21BF8F795 /* Sources */,
+				58B31B4FC3EEBB312AB2312EDC8A72CD /* Frameworks */,
+				D548F86FE8B84780B73C3F553DBB57F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B01761221BF6E9DA2AC9E6287659D87D /* PBXTargetDependency */,
+			);
+			name = LEGOCoreKit;
+			productName = LEGOCoreKit;
+			productReference = 3B3E26D6DD116E4035DFFAFE099BEB0D /* LEGOCoreKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -372,19 +763,20 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4C5D851FE19E9DB2BEEE906434DA594C /* Products */;
+			productRefGroup = BDB4CE1DF71718870764A298EF7EDDEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				672F6158A5AB523D17CFF5359BD141DC /* LEGOCoreKit */,
-				2A298966374B18CCE44EE0594614417C /* Pods-LEGOCoreKit_Example */,
+				DD46D05D9FCA0C7DDCF3056A42CC8744 /* LEGOCoreKit */,
+				1FE7F3D98F7412DFC9E4188E97BC1382 /* Pods-LEGOCoreKit_Example */,
 				B649ECED36F44D7ABAAA2555BB9C9E59 /* Pods-LEGOCoreKit_Tests */,
+				4F2F40F9F644B8DFDDC2D76CF8F62810 /* YYCategories */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		06F4FDA82F27170DA889DAF2B9E80AAC /* Resources */ = {
+		39AB5DF5A96D63EFEC554EEC092BE0B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,7 +790,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF03CAF6F8EE65A4064E9AD5327147F2 /* Resources */ = {
+		7720D00DC7A6AFDD9CBBC6F272D57B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D548F86FE8B84780B73C3F553DBB57F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,20 +807,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		172CBAC971EC0F0E34F96CFB62B083C3 /* Sources */ = {
+		065816B62D827752AB58D80F1ECDE3C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C21C02A550530DD9B2BC79BBB27E4A8 /* Pods-LEGOCoreKit_Example-dummy.m in Sources */,
+				5DE90448540FFB806799BDB977B4D86B /* CALayer+YYAdd.m in Sources */,
+				62EF67750AA821E0D906F9E2D6407D5C /* NSArray+YYAdd.m in Sources */,
+				566BA5F0456F087129D5F2629AE82DFC /* NSBundle+YYAdd.m in Sources */,
+				78343DAD217E00580EE2D85B21F81376 /* NSData+YYAdd.m in Sources */,
+				5F66691B748F1929A90F7054990B4CB2 /* NSDate+YYAdd.m in Sources */,
+				A5BDD5A7A2AF4538C79C345CE0588CE6 /* NSDictionary+YYAdd.m in Sources */,
+				BD1CEAB10E2D549DC6B07233D4BAF6F1 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
+				509C02ADAC9D446F808B5F2D2301D7B9 /* NSNotificationCenter+YYAdd.m in Sources */,
+				AFF5EE915392F42333F078D6EE6BF3D2 /* NSNumber+YYAdd.m in Sources */,
+				04F0FE8A29A940DD70D96C7B54FEFA3D /* NSObject+YYAdd.m in Sources */,
+				ECB34E00337D66E9D9BE72AD26CE5E8F /* NSObject+YYAddForARC.m in Sources */,
+				29EC54684DC77D9A18CCBBEFD06153A4 /* NSObject+YYAddForKVO.m in Sources */,
+				BA94DD6AD54D9ABA9D31A337EA69E631 /* NSString+YYAdd.m in Sources */,
+				5D28E9C4DABF82F49F84EBDACA7D1197 /* NSThread+YYAdd.m in Sources */,
+				25F30317AC20FBECEF8C791AB6330655 /* NSTimer+YYAdd.m in Sources */,
+				13962976D26794E805D1E33463825FEB /* UIApplication+YYAdd.m in Sources */,
+				497C406F3313EA43C8903CA8FB8B853E /* UIBarButtonItem+YYAdd.m in Sources */,
+				6DF63FD661E570FA782B1890B5CB5701 /* UIBezierPath+YYAdd.m in Sources */,
+				F3C3072CCF218D335B49C669CCB77577 /* UIColor+YYAdd.m in Sources */,
+				580145D1E9A9C869F6D5EAF618DAF83D /* UIControl+YYAdd.m in Sources */,
+				0E4C5C0F7633D381298F7027515A3957 /* UIDevice+YYAdd.m in Sources */,
+				537B639F9CFE510C6D940CAD8D76BBFC /* UIFont+YYAdd.m in Sources */,
+				2177CC2A4E07D3C04ABAF99614C74226 /* UIGestureRecognizer+YYAdd.m in Sources */,
+				D10B45C479010FFD7A89FA99C2D1AD9E /* UIImage+YYAdd.m in Sources */,
+				0198E740CE05346FCFAAF95FC6B98049 /* UIScreen+YYAdd.m in Sources */,
+				F203D39A4F9E711595B5748176ADB476 /* UIScrollView+YYAdd.m in Sources */,
+				CA75E3B518D61EC4E19485A46FE451FB /* UITableView+YYAdd.m in Sources */,
+				EBFBC722181748CECC33A8B4F1B03D8E /* UITextField+YYAdd.m in Sources */,
+				75FCCBDD60C20748B07EFA3A67EC4DF7 /* UIView+YYAdd.m in Sources */,
+				B0F545AE447A644A490B9B592B1B67E5 /* YYCategories-dummy.m in Sources */,
+				3E84D469804B90CA890444D6EE47467C /* YYCGUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B53BBD50BABC46CED964BC6472335316 /* Sources */ = {
+		6D1CE29D00E3363E02F60DF21BF8F795 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF68EA684DE87659580A7557D9F4EDB3 /* LEGOAuthorityManager.m in Sources */,
-				E136E62A476ABA2219D1E382DCBB4CD4 /* LEGOCoreKit-dummy.m in Sources */,
+				8759AA344E3F5122A8770BFD84D1F2F6 /* LEGOCoreKit-dummy.m in Sources */,
+				F65318935A23B2DB22ED63E704FB5DF1 /* LGAuthorityManager.m in Sources */,
+				B9AF395341E14D575769166ACBA3EF9D /* LGSystemInfo.m in Sources */,
+				CBC96995D6E6DAEFA84703D5D47CFF67 /* LGUtility+App.m in Sources */,
+				62DC3FC970E84095C662D3F421CA783D /* LGUtility+Device.m in Sources */,
+				196A9433AA985512F23AC90E12DD7221 /* LGUtility+Locale.m in Sources */,
+				F09C83C2D2444B1FA98886CB68508CFE /* LGUtility.m in Sources */,
+				E42785A67F9E4F3A1244C2340E1854CB /* UIScreen+Utility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A492AD617178496089FD32F260B86000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC3CFD1C9A41DC00C82D4845823E7FD /* Pods-LEGOCoreKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,14 +882,26 @@
 		1620665D3482875B6898FCCCF5932DAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LEGOCoreKit_Example";
-			target = 2A298966374B18CCE44EE0594614417C /* Pods-LEGOCoreKit_Example */;
+			target = 1FE7F3D98F7412DFC9E4188E97BC1382 /* Pods-LEGOCoreKit_Example */;
 			targetProxy = 0D98660D8E332D04686E88FD70B6C931 /* PBXContainerItemProxy */;
 		};
-		61AE2F5F9AC31660771EA24854F3DBAA /* PBXTargetDependency */ = {
+		34D70DFAEC6E891637F3A1E807688F41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LEGOCoreKit;
-			target = 672F6158A5AB523D17CFF5359BD141DC /* LEGOCoreKit */;
-			targetProxy = 4609282D886B75A16686D91A20F9FDA8 /* PBXContainerItemProxy */;
+			target = DD46D05D9FCA0C7DDCF3056A42CC8744 /* LEGOCoreKit */;
+			targetProxy = 6B4F4D2F6B08AAB6BF510F566C4F73BC /* PBXContainerItemProxy */;
+		};
+		97F2AAD8559BDCC7E1F0B73472F56042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCategories;
+			target = 4F2F40F9F644B8DFDDC2D76CF8F62810 /* YYCategories */;
+			targetProxy = 8E0898897A589D6DDD5DFEFFC6EB7ADE /* PBXContainerItemProxy */;
+		};
+		B01761221BF6E9DA2AC9E6287659D87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCategories;
+			target = 4F2F40F9F644B8DFDDC2D76CF8F62810 /* YYCategories */;
+			targetProxy = 8E0CA6E13FFE49A9FB2BB5A772F8BD21 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -511,9 +966,9 @@
 			};
 			name = Release;
 		};
-		2227F1FCA4F3F7CDAB21954C2DE3A508 /* Release */ = {
+		0AC43FAA249230AD99F4DF424BF21421 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C46FD5226EEEB66E8CC2462021CF529C /* LEGOCoreKit.xcconfig */;
+			baseConfigurationReference = B67046F5513E29C737E487904288B53B /* YYCategories.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -524,17 +979,51 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LEGOCoreKit/LEGOCoreKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LEGOCoreKit/LEGOCoreKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCategories/YYCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCategories/YYCategories-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LEGOCoreKit/LEGOCoreKit.modulemap";
-				PRODUCT_MODULE_NAME = LEGOCoreKit;
-				PRODUCT_NAME = LEGOCoreKit;
+				MODULEMAP_FILE = "Target Support Files/YYCategories/YYCategories.modulemap";
+				PRODUCT_MODULE_NAME = YYCategories;
+				PRODUCT_NAME = YYCategories;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		344FA0E9A0A8CA9E6150690FF20F129E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4832A537FB443D8995038F3ACD398648 /* Pods-LEGOCoreKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGOCoreKit_Example/Pods-LEGOCoreKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGOCoreKit_Example/Pods-LEGOCoreKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -606,9 +1095,9 @@
 			};
 			name = Debug;
 		};
-		44F17580C78812F9481AD41CC8A27A6C /* Debug */ = {
+		6FABD3D3E43D54BDCD518A8746B38D53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C46FD5226EEEB66E8CC2462021CF529C /* LEGOCoreKit.xcconfig */;
+			baseConfigurationReference = 712C7E68A06E337FBB37738259C87932 /* LEGOCoreKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -669,6 +1158,37 @@
 			};
 			name = Debug;
 		};
+		BDA94B34878BFFB7D8508CAE862E7643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712C7E68A06E337FBB37738259C87932 /* LEGOCoreKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LEGOCoreKit/LEGOCoreKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LEGOCoreKit/LEGOCoreKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LEGOCoreKit/LEGOCoreKit.modulemap";
+				PRODUCT_MODULE_NAME = LEGOCoreKit;
+				PRODUCT_NAME = LEGOCoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C6F4DF31EA23623EE56A1E4F5CEEF61E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 265ED27697CA2367A9641BDED806495B /* Pods-LEGOCoreKit_Tests.release.xcconfig */;
@@ -703,7 +1223,37 @@
 			};
 			name = Release;
 		};
-		E7A7802DCE1925FAE6D4DF6AACA7DB06 /* Debug */ = {
+		C79FDB663C66EA370354DCD66A5F0AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67046F5513E29C737E487904288B53B /* YYCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCategories/YYCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCategories/YYCategories-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYCategories/YYCategories.modulemap";
+				PRODUCT_MODULE_NAME = YYCategories;
+				PRODUCT_NAME = YYCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F03AFF0AC6CDE412F922DC6DBB01A56D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D3B707948DDF769F9259ABD5A8C1F29 /* Pods-LEGOCoreKit_Example.debug.xcconfig */;
 			buildSettings = {
@@ -736,43 +1286,27 @@
 			};
 			name = Debug;
 		};
-		EDC0A70C99E97D330F16E13A3866D419 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4832A537FB443D8995038F3ACD398648 /* Pods-LEGOCoreKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LEGOCoreKit_Example/Pods-LEGOCoreKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LEGOCoreKit_Example/Pods-LEGOCoreKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0708A178C4EEA815E56F3AFECECF0180 /* Build configuration list for PBXNativeTarget "LEGOCoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FABD3D3E43D54BDCD518A8746B38D53 /* Debug */,
+				BDA94B34878BFFB7D8508CAE862E7643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351EABF0174F5D76CD37EA46D8634E3E /* Build configuration list for PBXNativeTarget "YYCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79FDB663C66EA370354DCD66A5F0AA9 /* Debug */,
+				0AC43FAA249230AD99F4DF424BF21421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -791,20 +1325,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B688104CDF0271F048940AC4E1D38436 /* Build configuration list for PBXNativeTarget "LEGOCoreKit" */ = {
+		C2DC007CE4A7773C0DDBACD234B5D059 /* Build configuration list for PBXNativeTarget "Pods-LEGOCoreKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44F17580C78812F9481AD41CC8A27A6C /* Debug */,
-				2227F1FCA4F3F7CDAB21954C2DE3A508 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DEED79B0591E2F20E73B34F4B264D342 /* Build configuration list for PBXNativeTarget "Pods-LEGOCoreKit_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E7A7802DCE1925FAE6D4DF6AACA7DB06 /* Debug */,
-				EDC0A70C99E97D330F16E13A3866D419 /* Release */,
+				F03AFF0AC6CDE412F922DC6DBB01A56D /* Debug */,
+				344FA0E9A0A8CA9E6150690FF20F129E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

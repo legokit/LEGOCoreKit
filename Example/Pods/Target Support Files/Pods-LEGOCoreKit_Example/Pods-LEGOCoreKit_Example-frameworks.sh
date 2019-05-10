@@ -154,9 +154,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LEGOCoreKit/LEGOCoreKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LEGOCoreKit/LEGOCoreKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
