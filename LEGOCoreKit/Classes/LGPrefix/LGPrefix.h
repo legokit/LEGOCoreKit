@@ -27,7 +27,7 @@
 #define IsiPhoneXSDevice ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? (CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size)) : NO)
 #define IsiPhoneXSMaxDevice ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? (CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size)) : NO)
 #define IsiPhoneXRDevice ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? (CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) || CGSizeEqualToSize(CGSizeMake(750, 1624), [[UIScreen mainScreen] currentMode].size)) : NO)
-#define IsiPhoneX ((LEGOIsiPhoneXDevice || LEGOIsiPhoneXSDevice || LEGOIsiPhoneXSMaxDevice || LEGOIsiPhoneXRDevice) ? YES : NO)
+#define IsiPhoneX ((IsiPhoneXDevice || IsiPhoneXSDevice || IsiPhoneXSMaxDevice || IsiPhoneXRDevice) ? YES : NO)
 
 // 屏幕的参数
 #define LEGOScreenWidth [[UIScreen mainScreen] bounds].size.width
