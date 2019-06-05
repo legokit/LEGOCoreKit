@@ -35,7 +35,7 @@
 #define LEGOScreen CGRectMake(0, 0, LEGOScreenWidth, LEGOScreenHeight)
 
 #define LEGONavMargan        (IsiPhoneX ? 40.f : 0.f)
-#define LEGONavHeight        (IsiPhoneX ? 70.f : 64.f)LEGO
+#define LEGONavHeight        (IsiPhoneX ? 70.f : 64.f)
 #define LEGOBottomMargin     (IsiPhoneX ? 34.f : 0.f)
 #define LEGOViewRate         LEGOScreenWidth / 375.0
 #define LEGOStatusBarHeight (CGFloat)(IsiPhoneX?(44.0):(0.0))
