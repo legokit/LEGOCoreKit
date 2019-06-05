@@ -10,7 +10,12 @@
 #define LBGOCoreKit_h
 
 #import "LGPrefix.h"
+#import "NSDate+String.h"
+#import "NSString+Time.h"
 #import "LGAuthorityManager.h"
+#import "LGSystemInfo.h"
+#import "LGUtility.h"
+#import "UIScreen+Utility.h"
 
 
 #endif /* LBGOCoreKit_h */

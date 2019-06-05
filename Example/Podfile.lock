@@ -1,9 +1,13 @@
 PODS:
   - LEGOCoreKit (0.1.0):
     - LEGOCoreKit/LGAuthority (= 0.1.0)
+    - LEGOCoreKit/LGCategories (= 0.1.0)
+    - LEGOCoreKit/LGDate (= 0.1.0)
     - LEGOCoreKit/LGPrefix (= 0.1.0)
     - LEGOCoreKit/LGUtility (= 0.1.0)
   - LEGOCoreKit/LGAuthority (0.1.0)
+  - LEGOCoreKit/LGCategories (0.1.0)
+  - LEGOCoreKit/LGDate (0.1.0)
   - LEGOCoreKit/LGPrefix (0.1.0)
   - LEGOCoreKit/LGUtility (0.1.0):
     - YYCategories
@@ -23,7 +27,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LEGOCoreKit: 57c69480df5d7d959ed43979bb196d8bf759d71b
+  LEGOCoreKit: ca6a227e02006c61fefde3b5bd2c5c23a1923176
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
 PODFILE CHECKSUM: 83b1643cbb52220337b77bb91d4016d745477dbb

@@ -12,6 +12,8 @@
 
 #import "LGCoreKit.h"
 #import "LGAuthorityManager.h"
+#import "NSDate+String.h"
+#import "NSString+Time.h"
 #import "LGPrefix.h"
 #import "LGSystemInfo.h"
 #import "LGUtility.h"

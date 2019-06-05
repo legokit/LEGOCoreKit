@@ -53,6 +53,17 @@ TODO: Add long description of the pod here.
       ss.dependency 'YYCategories'
   end
   
+  # 其他分类
+  s.subspec 'LGDate' do |ss|
+      ss.frameworks = 'UIKit', 'Foundation'
+      ss.source_files = 'LEGOCoreKit/Classes/LGDate/**/*'
+  end
+  
+  # 其他分类
+  s.subspec 'LGCategories' do |ss|
+      ss.frameworks = 'UIKit', 'Foundation'
+      ss.source_files = 'LEGOCoreKit/Classes/LGCategories/**/*'
+  end
   
   # s.resource_bundles = {
   #   'LEGOCoreKit' => ['LEGOCoreKit/Assets/*.png']

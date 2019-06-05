@@ -29,24 +29,16 @@
 #define IsiPhoneXRDevice ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? (CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) || CGSizeEqualToSize(CGSizeMake(750, 1624), [[UIScreen mainScreen] currentMode].size)) : NO)
 #define IsiPhoneX ((LEGOIsiPhoneXDevice || LEGOIsiPhoneXSDevice || LEGOIsiPhoneXSMaxDevice || LEGOIsiPhoneXRDevice) ? YES : NO)
 
-// 是否存在安全区域（即刘海屏x系列）
-#define IS_X_SafeArea \
-({BOOL isPhoneX = NO;\
-if (@available(iOS 11.0, *)) {\
-isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
-}\
-(isPhoneX);})
-
 // 屏幕的参数
 #define LEGOScreenWidth [[UIScreen mainScreen] bounds].size.width
 #define LEGOScreenHeight [[UIScreen mainScreen] bounds].size.height
 #define LEGOScreen CGRectMake(0, 0, LEGOScreenWidth, LEGOScreenHeight)
 
-#define LEGONavMargan        (LEGOIsiPhoneX ? 40.f : 0.f)
-#define LEGONavHeight        (LEGOIsiPhoneX ? 70.f : 64.f)LEGO
-#define LEGOBottomHeight     (LEGOIsiPhoneX ? 83.f : 49.f)
+#define LEGONavMargan        (IsiPhoneX ? 40.f : 0.f)
+#define LEGONavHeight        (IsiPhoneX ? 70.f : 64.f)LEGO
+#define LEGOBottomMargin     (IsiPhoneX ? 34.f : 0.f)
 #define LEGOViewRate         LEGOScreenWidth / 375.0
-#define LEGOStatusBarHeight (CGFloat)(LEGOIsiPhoneX?(44.0):(0.0))
+#define LEGOStatusBarHeight (CGFloat)(IsiPhoneX?(44.0):(0.0))
 
 // view.frame
 #define LEGO_VIEW_H(view)        CGRectGetHeight(view.frame)
