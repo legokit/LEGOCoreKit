@@ -37,6 +37,7 @@
                               @"iPod4,1" : @"iPod touch 4",
                               @"iPod5,1" : @"iPod touch 5",
                               @"iPod7,1" : @"iPod touch 6",
+                              @"iPod9,1" : @"iPod touch 7",
                               
                               @"iPhone1,1" : @"iPhone 1G",
                               @"iPhone1,2" : @"iPhone 3G",
@@ -102,6 +103,18 @@
                               @"iPad6,4" : @"iPad Pro (9.7 inch)",
                               @"iPad6,7" : @"iPad Pro (12.9 inch)",
                               @"iPad6,8" : @"iPad Pro (12.9 inch)",
+                              @"iPad6,11" : @"iPad 5 (WiFi)",
+                              @"iPad6,12" : @"iPad 5 (Cellular)",
+                              @"iPad7,1" : @"iPad Pro 12.9 inch 2nd gen (WiFi)",
+                              @"iPad7,2" : @"iPad Pro 12.9 inch 2nd gen (Cellular)",
+                              @"iPad7,3" : @"iPad Pro 10.5 inch (WiFi)",
+                              @"iPad7,4" : @"iPad Pro 10.5 inch (Cellular)",
+                              @"iPad11,1" : @"iPad mini 5",
+                              @"iPad11,2" : @"iPad mini 5",
+                              @"iPad11,3" : @"iPad Air 3",
+                              @"iPad11,4" : @"iPad Air 3",
+                              
+                              
                               
                               @"AppleTV2,1" : @"Apple TV 2",
                               @"AppleTV3,1" : @"Apple TV 3",
